@@ -1,0 +1,27 @@
+{
+  "schema": "comet.native.transaction.v2",
+  "id": "c85cf835-3201-42ab-9292-29d7b6bd8ebc",
+  "kind": "archive",
+  "status": "committed",
+  "change": "knn-evaluation-webui-rework",
+  "createdAt": "2026-08-08T10:37:07.598Z",
+  "preflightHash": "12bb722fb97d3adbcd2a2e6e94cc8178fea968b5faa8245a19bf003295071a6e",
+  "operations": [
+    {
+      "id": "spec-1-knn-evaluation-webui-rework",
+      "type": "write",
+      "target": "specs/knn-evaluation-webui-rework/spec.md",
+      "staged": "runtime/transactions/c85cf835-3201-42ab-9292-29d7b6bd8ebc/staged/specs/knn-evaluation-webui-rework/spec.md",
+      "expectedTargetHash": null,
+      "stagedHash": "041d199a664254700579e7a082bc389c08835dda46d664e0137d52f49ee91485"
+    },
+    {
+      "id": "archive-change",
+      "type": "move",
+      "source": "changes/knn-evaluation-webui-rework",
+      "target": "archive/2026-08-08-knn-evaluation-webui-rework",
+      "expectedSourceHash": "e526f510c9a3383eb3eac3c16959d6c1008726dabb835d527866ea66427d37a1",
+      "expectedTargetHash": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "comet.native.verification-receipt.v3",
+  "kind": "automated-check",
+  "role": "acceptance-evidence",
+  "status": "passed",
+  "bindings": {
+    "change": "knn-evaluation-webui-rework",
+    "sourceRevision": 3,
+    "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+    "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d",
+    "snapshotHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+    "artifactHash": "a5ed4a584eacc57759e9ce04ccb7ab3683c5ee2bd624550457605005b13a5815"
+  },
+  "acceptanceIds": [
+    "acceptance-1f2a72e514fc8f36bf2f44d7c042454531f8302a0a21c2b5709f8224a90d4da0",
+    "acceptance-66ebd9bc8a66dfe30c7e6e29bd92fe931a9a479d96739549cc3c84e6efe2187d",
+    "acceptance-8f59de76ba197d9663b6d9380cacaec3301f1794d221a775e74d2f5ede97d28f",
+    "acceptance-a36ab122a0546d3bf072dc64d24b1bb1391deabb60475335d0a70bb95eaf16a7",
+    "acceptance-af46895e163ea312c10a6486b107f8896352d1148dbf9cc0b2839f13680832ff"
+  ],
+  "actor": "native-runtime:command:bash",
+  "issuedAt": "2026-08-08T10:29:41.489Z",
+  "evidence": {
+    "executable": "bash",
+    "args": [
+      "-c",
+      "set -o pipefail; 'D:/Project/光机所项目/evaluation_scripts/.venv/Scripts/python.exe' -m pytest KNN_evaluation/tests/ -q -k 'not integration' 2>&1 | tr -d '\\r' | tail -c 2000"
+    ],
+    "cwd": ".",
+    "exitCode": 0,
+    "signal": null,
+    "timedOut": false,
+    "timeoutMs": 300000,
+    "startedAt": "2026-08-08T10:29:17.730Z",
+    "endedAt": "2026-08-08T10:29:41.489Z",
+    "worktree": {
+      "provider": "git",
+      "root": ".",
+      "beforeCommit": "5b2c0f3bbf4752ade7fa58e6edf1899c3efcc704",
+      "afterCommit": "5b2c0f3bbf4752ade7fa58e6edf1899c3efcc704"
+    },
+    "afterFence": {
+      "snapshotHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+      "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d",
+      "matched": true
+    },
+    "outputHash": "041eeb45fd369ca446199441769cdfc1cd4348b74c1285d617c5314c776b39eb",
+    "outputSummary": "t\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\importer.py:211: UserWarning: E121.4025_N25.1947: 未找到 GeoTIFF，已使用文件名坐标推算 UTM\n    warnings.warn(f\"{pair.image_id}: 未找到 GeoTIFF，已使用文件名坐标推算 UTM\")\n\nKNN_evaluation/tests/test_progress_callback.py::TestUtmPreferredPath::test_unparsable_filename_falls_back\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\importer.py:205: UserWarning: no_coord_here: 文件名坐标推算失败，回退 GeoTIFF\n    warnings.warn(f\"{pair.image_id}: 文件名坐标推算失败，回退 GeoTIFF\")\n\nKNN_evaluation/tests/test_progress_callback.py::TestUtmPreferredPath::test_unparsable_filename_falls_back\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\importer.py:213: UserWarning: no_coord_here: 未找到 GeoTIFF，UTM 坐标设为 NaN\n    warnings.warn(f\"{pair.image_id}: 未找到 GeoTIFF，UTM 坐标设为 NaN\")\n\nKNN_evaluation/tests/test_webui.py::TestImportAutoRetry::test_retries_after_failure_then_succeeds\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\data_loader.py:145: UserWarning: 缺少 SE/ 或 DW/ 子目录: C:\\Users\\FMY\\AppData\\Local\\Temp\\pytest-of-FMY\\pytest-882\\test_retries_after_failure_the0\\data\n    warnings.warn(f\"缺少 SE/ 或 DW/ 子目录: {data_dir}\")\n\nKNN_evaluation/tests/test_webui.py::TestImportAutoRetry::test_no_retry_on_success\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\data_loader.py:145: UserWarning: 缺少 SE/ 或 DW/ 子目录: C:\\Users\\FMY\\AppData\\Local\\Temp\\pytest-of-FMY\\pytest-882\\test_no_retry_on_success0\\data\n    warnings.warn(f\"缺少 SE/ 或 DW/ 子目录: {data_dir}\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n331 passed, 1 skipped, 3 deselected, 24 warnings in 21.80s",
+    "outputTruncated": false
+  },
+  "receiptHash": "ff1719fe55ba78c72daf294a9048561e29006c88857b047b73f61e4cd27f0720"
+}

@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Test caches / logs
+.pytest_cache/
+*.log
+
+# Virtual environments
+.venv
+
+# Data files (demo/test data only; not version controlled)
+data_demo/
+data/
+data_google/
+data_xian/
+*.7z
+
+# Import manifest (generated cache; not version controlled)
+qdrant_import_manifest*.json
+qdrant_sampling_map*.json
+
+# Corpus vector disk cache (generated; rebuildable; not version controlled)
+qdrant_corpus_cache/
+
+# Training outputs (checkpoints/plots/meta; generated; not version controlled)
+outputs/
+
+# Evaluation results / diagnostics (generated; not version controlled)
+result/
+
+# Local tool state (not for public upload)
+.worktrees/
+.superpowers/
+.zcode/
+.reasonix/
+.codegraph/

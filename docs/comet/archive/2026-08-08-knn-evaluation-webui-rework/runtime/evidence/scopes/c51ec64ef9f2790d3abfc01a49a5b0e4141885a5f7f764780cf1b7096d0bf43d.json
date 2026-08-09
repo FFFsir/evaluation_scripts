@@ -1,0 +1,83 @@
+{
+  "schema": "comet.native.implementation-scope.v2",
+  "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+  "baselineProjectionRef": "runtime/evidence/snapshots/9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6.json",
+  "baselineProjectionHash": "9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6",
+  "currentProjectionRef": "runtime/evidence/snapshots/268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6.json",
+  "currentProjectionHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+  "complete": true,
+  "declaredArtifacts": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "file"
+    }
+  ],
+  "changes": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "d34648c4704aa445f02a82b2b782e753905477f93298167edd5678d5c05ef429",
+        "size": 107934
+      },
+      "after": {
+        "hash": "89cb47415f0bac971804b50b7ee558dabf9fb5c56b62eddfea9334e0bd3b875f",
+        "size": 27584
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/tests/test_webui.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "modified",
+      "before": {
+        "hash": "1341dae9723423cee56ffa89a2678ee2ad94548b3c50167d715929a314da309c",
+        "size": 6631
+      },
+      "after": {
+        "hash": "3788c109ec72615e4b4c3b85afd2b900af6ac31e7c1ca39f8b4e3ca0784cb724",
+        "size": 7728
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/visualization.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "5df60ac6804751a6dc17b4e943c729b49666e50e5936ad86eea3a18519013df4",
+        "size": 95896
+      },
+      "after": {
+        "hash": "9771ccb3e0d0715c21ef0569c9e3bb1f6df294855e54cb25fb77cd32fcb93835",
+        "size": 88608
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/webui.py",
+          "kind": "file"
+        }
+      ]
+    }
+  ],
+  "unattributed": [],
+  "unresolvedScopes": [],
+  "noCodeReason": null,
+  "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "comet.native.implementation-scope.v2",
+  "contractHash": "daa787ffccecc32f4a802dae83a0d7b5f9cf8b1fe8015361fe8b0934e5908cf0",
+  "baselineProjectionRef": "runtime/evidence/snapshots/a6470db66ac8ba289d65aafa87d7700708ca7af5dde167514724c7574de1eb51.json",
+  "baselineProjectionHash": "a6470db66ac8ba289d65aafa87d7700708ca7af5dde167514724c7574de1eb51",
+  "currentProjectionRef": "runtime/evidence/snapshots/5a6c3115637668aaaee7e678ab347e1dd81ab0cc53566d53fb95b9ba769accb8.json",
+  "currentProjectionHash": "5a6c3115637668aaaee7e678ab347e1dd81ab0cc53566d53fb95b9ba769accb8",
+  "complete": false,
+  "declaredArtifacts": [
+    {
+      "path": "LinearProbe_evaluation",
+      "kind": "directory"
+    }
+  ],
+  "changes": [],
+  "unattributed": [],
+  "unresolvedScopes": [
+    {
+      "id": "scope:1fb54cc61e4d5465bf63696088278a68d53cedb1bcfc53c1221d570faa976812",
+      "kind": "missing-no-code-reason",
+      "source": "implementation-scope",
+      "path": null,
+      "reason": "A non-empty no-code reason is required when the snapshots contain no changes"
+    }
+  ],
+  "noCodeReason": null,
+  "scopeHash": "33f9a78aac24421c0850d9f3073cb20bc68b99dae919c07c5dc8be4b25f8f421"
+}

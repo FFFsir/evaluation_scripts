@@ -1,0 +1,27 @@
+{
+  "schema": "comet.native.transaction.v2",
+  "id": "cbb9f372-cf73-4ba4-831b-e0ce20e454c3",
+  "kind": "archive",
+  "status": "committed",
+  "change": "linear-probe-evaluation",
+  "createdAt": "2026-08-03T10:53:37.100Z",
+  "preflightHash": "bdd33f005a113fc62292160f35b3c89ca1101fe40abaa88d23bcca55ffb16754",
+  "operations": [
+    {
+      "id": "spec-1-linear-probe-evaluation",
+      "type": "write",
+      "target": "specs/linear-probe-evaluation/spec.md",
+      "staged": "runtime/transactions/cbb9f372-cf73-4ba4-831b-e0ce20e454c3/staged/specs/linear-probe-evaluation/spec.md",
+      "expectedTargetHash": null,
+      "stagedHash": "ccc60c39420ee7cef8ac0199b4e3b7178e89580162a69feeba7c99195e99b58e"
+    },
+    {
+      "id": "archive-change",
+      "type": "move",
+      "source": "changes/linear-probe-evaluation",
+      "target": "archive/2026-08-03-linear-probe-evaluation",
+      "expectedSourceHash": "da309e6e66154235e5f511d839c218300966326d0d16f91a42b5ec2f8af5b96c",
+      "expectedTargetHash": null
+    }
+  ]
+}

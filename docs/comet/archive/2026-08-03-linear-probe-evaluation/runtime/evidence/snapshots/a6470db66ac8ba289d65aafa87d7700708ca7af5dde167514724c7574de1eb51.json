@@ -1,0 +1,2832 @@
+{
+  "schema": "comet.native.content-snapshot-projection.v1",
+  "origin": "change-created",
+  "capture": {
+    "provider": "git"
+  },
+  "complete": true,
+  "limits": {
+    "maxFiles": 10000,
+    "maxFileBytes": 268435456,
+    "maxTotalBytes": 268435456,
+    "maxManifestBytes": 1048576,
+    "maxDurationMs": 60000
+  },
+  "policy": {
+    "schema": "comet.native.snapshot-policy.v1",
+    "include": [
+      "**/*"
+    ],
+    "exclude": [
+      ".pytest_cache/**",
+      ".venv/**",
+      "data_demo/**",
+      "data/**",
+      "outputs/**",
+      "qdrant_corpus_cache/**",
+      "qdrant_sampling_map.json",
+      "result/**"
+    ],
+    "hash": "d8af9cff6832d15c8f0ff86937fdae894bb571cebfd9bc1833f8264276d87dea"
+  },
+  "entries": [
+    {
+      "path": ".agents/skills/brainstorming/SKILL.md",
+      "hash": "4a54a4858b99807f3155ed1614b2f116e35ea5c1b788e793f565dd837fd3891f",
+      "size": 10047,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/scripts/frame-template.html",
+      "hash": "7b9418e9939dded0cf8e6a5549a18162b7c7e5495deeefa83a12f3394b81395d",
+      "size": 8307,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/scripts/helper.js",
+      "hash": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "size": 5615,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/scripts/server.cjs",
+      "hash": "ee89af11506ac4933324c89a2cfb36b391fe611f82efb9eeb3b814e40825145f",
+      "size": 26416,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/scripts/start-server.sh",
+      "hash": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "size": 6908,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/scripts/stop-server.sh",
+      "hash": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "size": 3263,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/spec-document-reviewer-prompt.md",
+      "hash": "95a0a195de9d984be2fffa95bab16fc8c563bc296a9cfc5e9c29cb3ece0d7457",
+      "size": 1747,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/brainstorming/visual-companion.md",
+      "hash": "60cbad29b9dd7eaf08da020e301c498a72230b2e13c1813fa967a135ffcc1d71",
+      "size": 13298,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/SKILL.md",
+      "hash": "49d907f2813e5912159022d0c58d5db9c43843f70f655b527cd4026cea924245",
+      "size": 7986,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/authored-zone-example.md",
+      "hash": "440f1e4ef3f9ba2404110ed0a220492b0c902e5f4ed8a0346be69eedaf2e6a08",
+      "size": 8362,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/authoring-subagents.md",
+      "hash": "6fbbee8ceb9c3fd7844e9d9f9336f8cbc1e3d79b7f318120498d23eb35512b11",
+      "size": 6534,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/bundle-authoring.md",
+      "hash": "5c3199221e608b20f70e4ebc06c44b1a82b848af3740c069aa1c8a29ee77e500",
+      "size": 6432,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/eval-provider.md",
+      "hash": "5998c9588c18dc52413f73a7b2ed50d28081e682f2a28b4ba44018c448d61e5b",
+      "size": 3218,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/pause-points-author.md",
+      "hash": "543a34062573b5e6f8c47e37650cb450cf81edde4c618ef346f4fc079a076f75",
+      "size": 4515,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/reference-author.md",
+      "hash": "6ded3e85ef29003236a78d82bed92100f851e1928857bc7ae29c2258ff7cc733",
+      "size": 3273,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/script-author.md",
+      "hash": "c54904e095445b02ba8ef0e6ca21253aa980193a7feaf7c715b1eea85550b4aa",
+      "size": 3785,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/skill-core-author.md",
+      "hash": "84ef68efec0e7b708f09ce5988575a087b63089b38849ef394c70ed3db66f895",
+      "size": 7302,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/skill-reviewer.md",
+      "hash": "9e3fd0743297f1bc8d196ffcdb1704c4bdfc6c08ff14b2a05b7340c6b1c7f013",
+      "size": 6777,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-any/reference/subagents/workflow-entry-author.md",
+      "hash": "cef96c63ec69966719c7a3059abf39a358bd610ba75153b98978ab08fdc4083f",
+      "size": 6427,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-archive/SKILL.md",
+      "hash": "464acf1051c973b2f67cc191ad09fc811f7a9cccb99b62e717790a0f04f018d7",
+      "size": 8657,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-build/SKILL.md",
+      "hash": "26408217808d2522aaeeaa696a449980184b72f5c9c88d319cee0fe903ebe2a9",
+      "size": 22733,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-classic/SKILL.md",
+      "hash": "32e98f0c4a2f0fc786562e4690b9f9288221e3c8877c220a44d5fe26aeb4dd93",
+      "size": 18601,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-design/SKILL.md",
+      "hash": "35d90b3ca56c82e700526777aa6eee5d182c031353974e9a1c5496c2338b413b",
+      "size": 12162,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-hotfix/SKILL.md",
+      "hash": "d55ccf2e5b0718887846089d480ac3d0a7c8df2cbdb40435ba9278f6ca3b5b3a",
+      "size": 12704,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/SKILL.md",
+      "hash": "7182d95ab2ee74916fc9d666339f5d40b7027002130546334a77327361bfa87a",
+      "size": 23620,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/reference/artifacts.md",
+      "hash": "3342cf0e73212a28408b193cb65fb0e3ea3604eea397ca2d38b3653f8244e079",
+      "size": 14312,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/reference/commands.md",
+      "hash": "f54caf112db3203e1b98511c915036e961c7cc5107e18e72a0599516d43244e6",
+      "size": 8938,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/reference/recovery.md",
+      "hash": "eeee898d3b8c6a32c1e9bb0ff4179015b28045f169c51c9d396ba7037720b641",
+      "size": 12069,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/scripts/comet-native-hook-guard.mjs",
+      "hash": "819de5cb6b2e32e79e6978988b50083a3faf2247683ff09d57d335883752c19d",
+      "size": 145,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-native/scripts/comet-native-runtime.mjs",
+      "hash": "ea4476965f04a81dc1c4d7868c90bae4ca91d98cebabf3d684d5ce0f3441649d",
+      "size": 1145894,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-open/SKILL.md",
+      "hash": "a71fee2f98f9e353f13030ac3d1d134343537ae9b28ed5996145bb6e78eb7db1",
+      "size": 17375,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-tweak/SKILL.md",
+      "hash": "12e5446de3f8c8506a107bd6e4836a2da75e1eda09a3e7e7ab4b4d5ca70ddb22",
+      "size": 13219,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet-verify/SKILL.md",
+      "hash": "8cc420a16353d6cb04e0af82c6e28b635c66ed99ed46dee6d15f6427b0efebbc",
+      "size": 13170,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/SKILL.md",
+      "hash": "7a7262b67bc15afcd14d246243db9e6e7713988bbc8be6bee06f6f610b549329",
+      "size": 1343,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/auto-transition.md",
+      "hash": "ceccd13a9b4f591de38d7409890759f3089025f65c27f052afefa950ee26848f",
+      "size": 1286,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/comet-yaml-fields.md",
+      "hash": "77ef2ae795260ebffa35060801ea4a4b88db6bbbfcd7c1d66b1dc57553c6af82",
+      "size": 6967,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/context-recovery.md",
+      "hash": "28b7846948dee6f4617a278f9fa8ee95aa85af842429cbf1200dee933dc6ba97",
+      "size": 2922,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/debug-gate.md",
+      "hash": "d5471ff6de6bee8642a1d0b77d08c771eddd858e3ff6640924c400b65b7f390f",
+      "size": 2375,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/decision-point.md",
+      "hash": "800482c743e2d54877231141edbe31df3011cb9281921e59e739c34eab31b066",
+      "size": 3194,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/dirty-worktree.md",
+      "hash": "27f9666c3c3ae0e2670ab501e7d2a634f22ebea2d74e231727515fe181e1f853",
+      "size": 3286,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/file-structure.md",
+      "hash": "21a9c52cdb3224036b1c6f627246af655be33316d7879d87f64fedbc74fc3de1",
+      "size": 1312,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/intent-frame.md",
+      "hash": "390ba9afeac5242485d0869bd4e30c273aac9caeac3395558a9bd4f84b3f4f4e",
+      "size": 4629,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/scripts.md",
+      "hash": "f810279be3d939761891677ca62d2e4f166e2954ea5889329c481c68aafc6880",
+      "size": 4532,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/reference/subagent-dispatch.md",
+      "hash": "f3d8d580f5ea75d62b2bb77a90a4d7fc8c552a67875835d00207fee463e8e428",
+      "size": 17193,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/runtime/classic/checks.yaml",
+      "hash": "2173d75906e5020dbd71220b6a7b517b2a54edb91463bf0ef499b0107192f58d",
+      "size": 120,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/runtime/classic/guardrails.yaml",
+      "hash": "c962776d74f40af41252f45160d0ab427d06065e09edaf409179bdabce0d3e0e",
+      "size": 236,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/runtime/classic/skill.yaml",
+      "hash": "856d4eb30d803018b37023c04ea4b1faf7ff811513552aadd468d17e88b2c254",
+      "size": 4240,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-archive.mjs",
+      "hash": "8e671fbcec253885fec485f1e380e21c48d76abbb32825bc0d1889de7c2fd96a",
+      "size": 134,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-entry-runtime.mjs",
+      "hash": "d9f03607329ec1d58b668d86d5e175b589b401e92d294d68101aaf1afbb7b6c9",
+      "size": 289020,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-env.mjs",
+      "hash": "ec5ed6dd31451c3b48a4e1e1dc8cd148759288fa778d6180aa6f16ae810de62c",
+      "size": 668,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-guard.mjs",
+      "hash": "ac07e951389437ef09d758b6138fd967d94230fbaf8c0cf4d4bd41acafb63636",
+      "size": 132,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-handoff.mjs",
+      "hash": "6ca8d5c2152b68409fbd9dc880c6e7f9a8007f012e154b33d796d0acb3e6a42d",
+      "size": 134,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-hook-guard.mjs",
+      "hash": "50f617c1da8dec33492e7d01877e3e26b73355d4c43e9d06f8fadebfb658edc7",
+      "size": 137,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-hook-router.mjs",
+      "hash": "ef8f37e3267c8753bf095c1c95718e425a69102884f6cebefe066acd0d9b3d1b",
+      "size": 386166,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-intent.mjs",
+      "hash": "762efd0e7329ec6ca1b4b0d7e7eababcd72b7485e89fb65ccabc1e116fa4e8d5",
+      "size": 133,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-resume-probe.mjs",
+      "hash": "93eb865ce26c91139d00793bc9271df4849e97df61e4417eb5fd40b95e5a7be1",
+      "size": 139,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-runtime.mjs",
+      "hash": "ca4540a4971d8d11c10d51f7db9f72dc7cadbfd1b2b1c8886d0469d735c0e284",
+      "size": 546708,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-state.mjs",
+      "hash": "977cb85cff6dc86f7f035b32d7d6f983e29c2da1c9254ddce287c2791ccf30d1",
+      "size": 132,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/comet/scripts/comet-yaml-validate.mjs",
+      "hash": "55414fdd30bc60a2aa881f78ea6520bbdc4782f99b67aea883b062738aee342e",
+      "size": 135,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/dispatching-parallel-agents/SKILL.md",
+      "hash": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "size": 6078,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/executing-plans/SKILL.md",
+      "hash": "c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b",
+      "size": 2305,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/finishing-a-development-branch/SKILL.md",
+      "hash": "d0ac8360ed9d59121776ef95c84bcb38e9747de0d7ae7e227dca81e437593b9b",
+      "size": 7022,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/receiving-code-review/SKILL.md",
+      "hash": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "size": 6203,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/requesting-code-review/SKILL.md",
+      "hash": "d71cc01ba56d2325cf8af5f7c11837819b63ecd57de0bfdb812f7f3ff7751df8",
+      "size": 2956,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/requesting-code-review/code-reviewer.md",
+      "hash": "b2f2ec7596925fe52dac158fdfbca19b3a7d779d619c481e6706a6c0001662d3",
+      "size": 5213,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/SKILL.md",
+      "hash": "349a08ad8b59b19b86c13a7d2f34a1a38719bf88257004a863eefefa8d9f9e40",
+      "size": 28077,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/implementer-prompt.md",
+      "hash": "946601616a6f76ab3f165ef98377390968f1ec124ecef87422bc3553404e0332",
+      "size": 5717,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/re-review-prompt.md",
+      "hash": "e1d8e0e65e58ccde6dc920843da9148d23e65aeb0f8932bcc30be1341a703c4c",
+      "size": 4300,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/scripts/review-package",
+      "hash": "7cfee68ad5c53dea3532acd4c34d85148d3e591f2f8da94853478ffd57bf4211",
+      "size": 1515,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/scripts/sdd-workspace",
+      "hash": "36c0cad20d4891dace227110c17624e09a1e607329841b5de02fb84fd37d4207",
+      "size": 1626,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/scripts/task-brief",
+      "hash": "be4896abf0918da67832e81cad80d39599f85e461e721f4613828a3810f3e493",
+      "size": 1199,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "hash": "e3b4a1bfe7cd55ed0459e5ca9cdddb6ff086c345b99e9097036db6a18545729e",
+      "size": 7816,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/CREATION-LOG.md",
+      "hash": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+      "size": 4257,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/SKILL.md",
+      "hash": "808fc5717aa88ad65efff312b11c186294d3e6ee301afb584e2f86599b137787",
+      "size": 9465,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "hash": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+      "size": 5054,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/condition-based-waiting.md",
+      "hash": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "size": 3516,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/defense-in-depth.md",
+      "hash": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "size": 3650,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/find-polluter.sh",
+      "hash": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+      "size": 1986,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/root-cause-tracing.md",
+      "hash": "6b0622269e098ca1399e123e553fd385f0b6412d88ef0e9c4f5a8ea9cf1cec7b",
+      "size": 5316,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/test-academic.md",
+      "hash": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+      "size": 653,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/test-pressure-1.md",
+      "hash": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+      "size": 1900,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/test-pressure-2.md",
+      "hash": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+      "size": 2283,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/test-pressure-3.md",
+      "hash": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708",
+      "size": 2692,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/test-driven-development/SKILL.md",
+      "hash": "bf1b8216e523851a411e91d429a7c1c2a173e79d88957bc78e348218d50edd54",
+      "size": 9015,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/test-driven-development/writing-good-tests.md",
+      "hash": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "size": 8268,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-git-worktrees/SKILL.md",
+      "hash": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "size": 6813,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-superpowers/SKILL.md",
+      "hash": "55379fe7c1c473a02c61961c822996bff30e1320d6921d9062509bc508482c05",
+      "size": 3063,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-superpowers/references/antigravity-tools.md",
+      "hash": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+      "size": 1495,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-superpowers/references/codex-tools.md",
+      "hash": "d3f113a8ebbd748e8ba847b09b57b7685442775ca4ee194d693ce3663f8fac68",
+      "size": 1774,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-superpowers/references/gemini-tools.md",
+      "hash": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+      "size": 4598,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/using-superpowers/references/pi-tools.md",
+      "hash": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
+      "size": 1242,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/verification-before-completion/SKILL.md",
+      "hash": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "size": 3646,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-plans/SKILL.md",
+      "hash": "72190c88b2b5a67a96b91d66aa72b9161913e10e8769da3f28a226f4cc7b99d0",
+      "size": 6907,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-plans/plan-document-reviewer-prompt.md",
+      "hash": "aa728b96aad603c8be28875a4305637f6c984aa81ffcadcb13e743202fa2a0c7",
+      "size": 1713,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/SKILL.md",
+      "hash": "d34db5c8aed6a4e0440132bd0613aace70a693ec7819d5637ad77481d8e10d1b",
+      "size": 26360,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/anthropic-best-practices.md",
+      "hash": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+      "size": 46197,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
+      "hash": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+      "size": 5423,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/graphviz-conventions.dot",
+      "hash": "b18a02773875f6c7b92f2a260e88550c92a62549b0009df9d680f7e9541d0ecc",
+      "size": 6141,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/persuasion-principles.md",
+      "hash": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+      "size": 5901,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/render-graphs.js",
+      "hash": "ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+      "size": 4857,
+      "type": "file"
+    },
+    {
+      "path": ".agents/skills/writing-skills/testing-skills-with-subagents.md",
+      "hash": "c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade",
+      "size": 12558,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/apply.md",
+      "hash": "ddd64fd07cbd87e288260d920374464d6119f79172a245640ce012593505d994",
+      "size": 7165,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/archive.md",
+      "hash": "5ca089a8ec1193d5d3451eb2fd7a9909d77204468cf6fe3f7b6e5ee6a2bfb923",
+      "size": 10782,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/bulk-archive.md",
+      "hash": "d8b4f410a57081fac2aa9cd3ea200e0dda1aa9f1d19ec60b180e1681e1d19868",
+      "size": 15943,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/continue.md",
+      "hash": "457e2bb75ad2ac76487c50f6c2fca0fcb88ff2aa69ea736f4d4580c88dc27a01",
+      "size": 6316,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/explore.md",
+      "hash": "9c56e59a0a0becd8b865716e60333bd362fbb235dd4db3d7a40e35679699f51b",
+      "size": 8001,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/ff.md",
+      "hash": "cf95505ff66dd8a3697b85df3a8b03af82176e45c4f241cdceb7e42eabb46e54",
+      "size": 7509,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/new.md",
+      "hash": "922b5a36d8b1890ee2a33884a0c49895681875a073c422be0431a752d7464047",
+      "size": 3273,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/onboard.md",
+      "hash": "5a984be4b6622fcb6e7b78a0de4ee2842eb56ccc11eb36571e5af5fe10c91cb0",
+      "size": 15314,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/propose.md",
+      "hash": "dd7e385734a15ff7adb040ce3896f2973e93398a28b3dd1d011b07d053aedb4a",
+      "size": 7827,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/sync.md",
+      "hash": "f2f8b21a14d79132c04a684dade86d72e3a317d8d099b89934af600563a94c15",
+      "size": 9491,
+      "type": "file"
+    },
+    {
+      "path": ".claude/commands/opsx/verify.md",
+      "hash": "9a20f5616f96b29e996d39e80e159c5001d25b438b90fe1af2f3926ba8889b67",
+      "size": 7342,
+      "type": "file"
+    },
+    {
+      "path": ".claude/rules/comet-workflow-guard.md",
+      "hash": "d670067cd1c1573b4c655de3ec553252f20126d3dba3d187a78717c2c87cb3c8",
+      "size": 2196,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/SKILL.md",
+      "hash": "4a54a4858b99807f3155ed1614b2f116e35ea5c1b788e793f565dd837fd3891f",
+      "size": 10047,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/scripts/frame-template.html",
+      "hash": "7b9418e9939dded0cf8e6a5549a18162b7c7e5495deeefa83a12f3394b81395d",
+      "size": 8307,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/scripts/helper.js",
+      "hash": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "size": 5615,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/scripts/server.cjs",
+      "hash": "ee89af11506ac4933324c89a2cfb36b391fe611f82efb9eeb3b814e40825145f",
+      "size": 26416,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/scripts/start-server.sh",
+      "hash": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "size": 6908,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/scripts/stop-server.sh",
+      "hash": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "size": 3263,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/spec-document-reviewer-prompt.md",
+      "hash": "95a0a195de9d984be2fffa95bab16fc8c563bc296a9cfc5e9c29cb3ece0d7457",
+      "size": 1747,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/brainstorming/visual-companion.md",
+      "hash": "60cbad29b9dd7eaf08da020e301c498a72230b2e13c1813fa967a135ffcc1d71",
+      "size": 13298,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/SKILL.md",
+      "hash": "49d907f2813e5912159022d0c58d5db9c43843f70f655b527cd4026cea924245",
+      "size": 7986,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/authored-zone-example.md",
+      "hash": "440f1e4ef3f9ba2404110ed0a220492b0c902e5f4ed8a0346be69eedaf2e6a08",
+      "size": 8362,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/authoring-subagents.md",
+      "hash": "6fbbee8ceb9c3fd7844e9d9f9336f8cbc1e3d79b7f318120498d23eb35512b11",
+      "size": 6534,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/bundle-authoring.md",
+      "hash": "5c3199221e608b20f70e4ebc06c44b1a82b848af3740c069aa1c8a29ee77e500",
+      "size": 6432,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/eval-provider.md",
+      "hash": "5998c9588c18dc52413f73a7b2ed50d28081e682f2a28b4ba44018c448d61e5b",
+      "size": 3218,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/pause-points-author.md",
+      "hash": "543a34062573b5e6f8c47e37650cb450cf81edde4c618ef346f4fc079a076f75",
+      "size": 4515,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/reference-author.md",
+      "hash": "6ded3e85ef29003236a78d82bed92100f851e1928857bc7ae29c2258ff7cc733",
+      "size": 3273,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/script-author.md",
+      "hash": "c54904e095445b02ba8ef0e6ca21253aa980193a7feaf7c715b1eea85550b4aa",
+      "size": 3785,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/skill-core-author.md",
+      "hash": "84ef68efec0e7b708f09ce5988575a087b63089b38849ef394c70ed3db66f895",
+      "size": 7302,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/skill-reviewer.md",
+      "hash": "9e3fd0743297f1bc8d196ffcdb1704c4bdfc6c08ff14b2a05b7340c6b1c7f013",
+      "size": 6777,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-any/reference/subagents/workflow-entry-author.md",
+      "hash": "cef96c63ec69966719c7a3059abf39a358bd610ba75153b98978ab08fdc4083f",
+      "size": 6427,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-archive/SKILL.md",
+      "hash": "464acf1051c973b2f67cc191ad09fc811f7a9cccb99b62e717790a0f04f018d7",
+      "size": 8657,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-build/SKILL.md",
+      "hash": "26408217808d2522aaeeaa696a449980184b72f5c9c88d319cee0fe903ebe2a9",
+      "size": 22733,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-classic/SKILL.md",
+      "hash": "32e98f0c4a2f0fc786562e4690b9f9288221e3c8877c220a44d5fe26aeb4dd93",
+      "size": 18601,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-design/SKILL.md",
+      "hash": "35d90b3ca56c82e700526777aa6eee5d182c031353974e9a1c5496c2338b413b",
+      "size": 12162,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-hotfix/SKILL.md",
+      "hash": "d55ccf2e5b0718887846089d480ac3d0a7c8df2cbdb40435ba9278f6ca3b5b3a",
+      "size": 12704,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/SKILL.md",
+      "hash": "7182d95ab2ee74916fc9d666339f5d40b7027002130546334a77327361bfa87a",
+      "size": 23620,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/reference/artifacts.md",
+      "hash": "3342cf0e73212a28408b193cb65fb0e3ea3604eea397ca2d38b3653f8244e079",
+      "size": 14312,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/reference/commands.md",
+      "hash": "f54caf112db3203e1b98511c915036e961c7cc5107e18e72a0599516d43244e6",
+      "size": 8938,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/reference/recovery.md",
+      "hash": "eeee898d3b8c6a32c1e9bb0ff4179015b28045f169c51c9d396ba7037720b641",
+      "size": 12069,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/scripts/comet-native-hook-guard.mjs",
+      "hash": "819de5cb6b2e32e79e6978988b50083a3faf2247683ff09d57d335883752c19d",
+      "size": 145,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-native/scripts/comet-native-runtime.mjs",
+      "hash": "ea4476965f04a81dc1c4d7868c90bae4ca91d98cebabf3d684d5ce0f3441649d",
+      "size": 1145894,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-open/SKILL.md",
+      "hash": "a71fee2f98f9e353f13030ac3d1d134343537ae9b28ed5996145bb6e78eb7db1",
+      "size": 17375,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-tweak/SKILL.md",
+      "hash": "12e5446de3f8c8506a107bd6e4836a2da75e1eda09a3e7e7ab4b4d5ca70ddb22",
+      "size": 13219,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet-verify/SKILL.md",
+      "hash": "8cc420a16353d6cb04e0af82c6e28b635c66ed99ed46dee6d15f6427b0efebbc",
+      "size": 13170,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/SKILL.md",
+      "hash": "7a7262b67bc15afcd14d246243db9e6e7713988bbc8be6bee06f6f610b549329",
+      "size": 1343,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/auto-transition.md",
+      "hash": "ceccd13a9b4f591de38d7409890759f3089025f65c27f052afefa950ee26848f",
+      "size": 1286,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/comet-yaml-fields.md",
+      "hash": "77ef2ae795260ebffa35060801ea4a4b88db6bbbfcd7c1d66b1dc57553c6af82",
+      "size": 6967,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/context-recovery.md",
+      "hash": "28b7846948dee6f4617a278f9fa8ee95aa85af842429cbf1200dee933dc6ba97",
+      "size": 2922,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/debug-gate.md",
+      "hash": "d5471ff6de6bee8642a1d0b77d08c771eddd858e3ff6640924c400b65b7f390f",
+      "size": 2375,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/decision-point.md",
+      "hash": "800482c743e2d54877231141edbe31df3011cb9281921e59e739c34eab31b066",
+      "size": 3194,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/dirty-worktree.md",
+      "hash": "27f9666c3c3ae0e2670ab501e7d2a634f22ebea2d74e231727515fe181e1f853",
+      "size": 3286,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/file-structure.md",
+      "hash": "21a9c52cdb3224036b1c6f627246af655be33316d7879d87f64fedbc74fc3de1",
+      "size": 1312,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/intent-frame.md",
+      "hash": "390ba9afeac5242485d0869bd4e30c273aac9caeac3395558a9bd4f84b3f4f4e",
+      "size": 4629,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/scripts.md",
+      "hash": "f810279be3d939761891677ca62d2e4f166e2954ea5889329c481c68aafc6880",
+      "size": 4532,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/reference/subagent-dispatch.md",
+      "hash": "f3d8d580f5ea75d62b2bb77a90a4d7fc8c552a67875835d00207fee463e8e428",
+      "size": 17193,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/runtime/classic/checks.yaml",
+      "hash": "2173d75906e5020dbd71220b6a7b517b2a54edb91463bf0ef499b0107192f58d",
+      "size": 120,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/runtime/classic/guardrails.yaml",
+      "hash": "c962776d74f40af41252f45160d0ab427d06065e09edaf409179bdabce0d3e0e",
+      "size": 236,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/runtime/classic/skill.yaml",
+      "hash": "856d4eb30d803018b37023c04ea4b1faf7ff811513552aadd468d17e88b2c254",
+      "size": 4240,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-archive.mjs",
+      "hash": "8e671fbcec253885fec485f1e380e21c48d76abbb32825bc0d1889de7c2fd96a",
+      "size": 134,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-entry-runtime.mjs",
+      "hash": "d9f03607329ec1d58b668d86d5e175b589b401e92d294d68101aaf1afbb7b6c9",
+      "size": 289020,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-env.mjs",
+      "hash": "ec5ed6dd31451c3b48a4e1e1dc8cd148759288fa778d6180aa6f16ae810de62c",
+      "size": 668,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-guard.mjs",
+      "hash": "ac07e951389437ef09d758b6138fd967d94230fbaf8c0cf4d4bd41acafb63636",
+      "size": 132,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-handoff.mjs",
+      "hash": "6ca8d5c2152b68409fbd9dc880c6e7f9a8007f012e154b33d796d0acb3e6a42d",
+      "size": 134,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-hook-guard.mjs",
+      "hash": "50f617c1da8dec33492e7d01877e3e26b73355d4c43e9d06f8fadebfb658edc7",
+      "size": 137,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-hook-router.mjs",
+      "hash": "ef8f37e3267c8753bf095c1c95718e425a69102884f6cebefe066acd0d9b3d1b",
+      "size": 386166,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-intent.mjs",
+      "hash": "762efd0e7329ec6ca1b4b0d7e7eababcd72b7485e89fb65ccabc1e116fa4e8d5",
+      "size": 133,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-resume-probe.mjs",
+      "hash": "93eb865ce26c91139d00793bc9271df4849e97df61e4417eb5fd40b95e5a7be1",
+      "size": 139,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-runtime.mjs",
+      "hash": "ca4540a4971d8d11c10d51f7db9f72dc7cadbfd1b2b1c8886d0469d735c0e284",
+      "size": 546708,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-state.mjs",
+      "hash": "977cb85cff6dc86f7f035b32d7d6f983e29c2da1c9254ddce287c2791ccf30d1",
+      "size": 132,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/comet/scripts/comet-yaml-validate.mjs",
+      "hash": "55414fdd30bc60a2aa881f78ea6520bbdc4782f99b67aea883b062738aee342e",
+      "size": 135,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/dispatching-parallel-agents/SKILL.md",
+      "hash": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "size": 6078,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/executing-plans/SKILL.md",
+      "hash": "c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b",
+      "size": 2305,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/finishing-a-development-branch/SKILL.md",
+      "hash": "d0ac8360ed9d59121776ef95c84bcb38e9747de0d7ae7e227dca81e437593b9b",
+      "size": 7022,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-apply-change/SKILL.md",
+      "hash": "d11531f742980de8e60ed5dcbe00dfb9d1f92d0aef3198a75fdeee671d646a74",
+      "size": 7333,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-archive-change/SKILL.md",
+      "hash": "7899f070cc9f372cf0fbb58a1b3f12a0ea427f5ba696de19d519c644eb423a4e",
+      "size": 9959,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-bulk-archive-change/SKILL.md",
+      "hash": "d0553307ad6e05ddca0990fdf2a085ed3c47eab7ac207e0507748f63a4f98e66",
+      "size": 16057,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-continue-change/SKILL.md",
+      "hash": "f63356bd11e921068a341f9ac243413691418c1d55a80a61ca816a5049a60f3d",
+      "size": 6400,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-explore/SKILL.md",
+      "hash": "de34ef96ad698821fe38fd0c83253b1a87b6385d81a8a878e639bf5356d06db2",
+      "size": 11969,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-ff-change/SKILL.md",
+      "hash": "c2bda456099fdc231f761c5987476c8a6079809a22b6ebf6ab78be9e16584e16",
+      "size": 7682,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-new-change/SKILL.md",
+      "hash": "52db66fe4acd3823c4ec1943afcf503e9f24eff2dcff3bb189747c08281c31d4",
+      "size": 3479,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-onboard/SKILL.md",
+      "hash": "b1a582aed14cb4791fdc391ff0ea2ca76cffa57971a20f8314b2a508b2bad5df",
+      "size": 15383,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-propose/SKILL.md",
+      "hash": "3aa0fefda46d696d64e6a03a8d880916624b9baa4a67b90689a1a2954673577c",
+      "size": 8045,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-sync-specs/SKILL.md",
+      "hash": "b16593ef4377199178e278e1404956236815b598f0687d0a0c3f8afefaf0287d",
+      "size": 9610,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/openspec-verify-change/SKILL.md",
+      "hash": "70c5e6f4da7538ae65899127f327a75048bde26f7778973cc012763666b4c761",
+      "size": 7442,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/receiving-code-review/SKILL.md",
+      "hash": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "size": 6203,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/requesting-code-review/SKILL.md",
+      "hash": "d71cc01ba56d2325cf8af5f7c11837819b63ecd57de0bfdb812f7f3ff7751df8",
+      "size": 2956,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/requesting-code-review/code-reviewer.md",
+      "hash": "b2f2ec7596925fe52dac158fdfbca19b3a7d779d619c481e6706a6c0001662d3",
+      "size": 5213,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/SKILL.md",
+      "hash": "349a08ad8b59b19b86c13a7d2f34a1a38719bf88257004a863eefefa8d9f9e40",
+      "size": 28077,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/implementer-prompt.md",
+      "hash": "946601616a6f76ab3f165ef98377390968f1ec124ecef87422bc3553404e0332",
+      "size": 5717,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/re-review-prompt.md",
+      "hash": "e1d8e0e65e58ccde6dc920843da9148d23e65aeb0f8932bcc30be1341a703c4c",
+      "size": 4300,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/scripts/review-package",
+      "hash": "7cfee68ad5c53dea3532acd4c34d85148d3e591f2f8da94853478ffd57bf4211",
+      "size": 1515,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/scripts/sdd-workspace",
+      "hash": "36c0cad20d4891dace227110c17624e09a1e607329841b5de02fb84fd37d4207",
+      "size": 1626,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/scripts/task-brief",
+      "hash": "be4896abf0918da67832e81cad80d39599f85e461e721f4613828a3810f3e493",
+      "size": 1199,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "hash": "e3b4a1bfe7cd55ed0459e5ca9cdddb6ff086c345b99e9097036db6a18545729e",
+      "size": 7816,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/CREATION-LOG.md",
+      "hash": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+      "size": 4257,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/SKILL.md",
+      "hash": "808fc5717aa88ad65efff312b11c186294d3e6ee301afb584e2f86599b137787",
+      "size": 9465,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/condition-based-waiting-example.ts",
+      "hash": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+      "size": 5054,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/condition-based-waiting.md",
+      "hash": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+      "size": 3516,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/defense-in-depth.md",
+      "hash": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+      "size": 3650,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/find-polluter.sh",
+      "hash": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+      "size": 1986,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/root-cause-tracing.md",
+      "hash": "6b0622269e098ca1399e123e553fd385f0b6412d88ef0e9c4f5a8ea9cf1cec7b",
+      "size": 5316,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/test-academic.md",
+      "hash": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+      "size": 653,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/test-pressure-1.md",
+      "hash": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+      "size": 1900,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/test-pressure-2.md",
+      "hash": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+      "size": 2283,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/systematic-debugging/test-pressure-3.md",
+      "hash": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708",
+      "size": 2692,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/test-driven-development/SKILL.md",
+      "hash": "bf1b8216e523851a411e91d429a7c1c2a173e79d88957bc78e348218d50edd54",
+      "size": 9015,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/test-driven-development/writing-good-tests.md",
+      "hash": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "size": 8268,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-git-worktrees/SKILL.md",
+      "hash": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "size": 6813,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-superpowers/SKILL.md",
+      "hash": "55379fe7c1c473a02c61961c822996bff30e1320d6921d9062509bc508482c05",
+      "size": 3063,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-superpowers/references/antigravity-tools.md",
+      "hash": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+      "size": 1495,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-superpowers/references/codex-tools.md",
+      "hash": "d3f113a8ebbd748e8ba847b09b57b7685442775ca4ee194d693ce3663f8fac68",
+      "size": 1774,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-superpowers/references/gemini-tools.md",
+      "hash": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+      "size": 4598,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/using-superpowers/references/pi-tools.md",
+      "hash": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
+      "size": 1242,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/verification-before-completion/SKILL.md",
+      "hash": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "size": 3646,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-plans/SKILL.md",
+      "hash": "72190c88b2b5a67a96b91d66aa72b9161913e10e8769da3f28a226f4cc7b99d0",
+      "size": 6907,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-plans/plan-document-reviewer-prompt.md",
+      "hash": "aa728b96aad603c8be28875a4305637f6c984aa81ffcadcb13e743202fa2a0c7",
+      "size": 1713,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/SKILL.md",
+      "hash": "d34db5c8aed6a4e0440132bd0613aace70a693ec7819d5637ad77481d8e10d1b",
+      "size": 26360,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/anthropic-best-practices.md",
+      "hash": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+      "size": 46197,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
+      "hash": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+      "size": 5423,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/graphviz-conventions.dot",
+      "hash": "b18a02773875f6c7b92f2a260e88550c92a62549b0009df9d680f7e9541d0ecc",
+      "size": 6141,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/persuasion-principles.md",
+      "hash": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+      "size": 5901,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/render-graphs.js",
+      "hash": "ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+      "size": 4857,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/writing-skills/testing-skills-with-subagents.md",
+      "hash": "c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade",
+      "size": 12558,
+      "type": "file"
+    },
+    {
+      "path": ".codegraph/.gitignore",
+      "hash": "47c0dacebca9f56c9020b68584470dfc51f07650a3719904e98f4b447a5dd003",
+      "size": 229,
+      "type": "file"
+    },
+    {
+      "path": ".codex/hooks.json",
+      "hash": "a3bbd6d4549da65422a9b614837264f7c0e38dd7f65cb4921b325d560968a177",
+      "size": 397,
+      "type": "file"
+    },
+    {
+      "path": ".codex/rules/comet-workflow-guard.md",
+      "hash": "d670067cd1c1573b4c655de3ec553252f20126d3dba3d187a78717c2c87cb3c8",
+      "size": 2196,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-apply-change/SKILL.md",
+      "hash": "ad613d2e091add16987991ca33b6c66eb648dc5f1be5fde66230b8c8b39dffc8",
+      "size": 7344,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-archive-change/SKILL.md",
+      "hash": "655ce675120860bd161b495fddc2eeba64b0d595ab1a798198dd4a4eb3d1f318",
+      "size": 9970,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-bulk-archive-change/SKILL.md",
+      "hash": "d0553307ad6e05ddca0990fdf2a085ed3c47eab7ac207e0507748f63a4f98e66",
+      "size": 16057,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-continue-change/SKILL.md",
+      "hash": "5e2c71653b5a5dc03f0022f3aea4d90c80b737a68385ff00f7fe6d1cef8b110c",
+      "size": 6411,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-explore/SKILL.md",
+      "hash": "e7b53309e97e9616e323de58e59711a97001604ea457c64b6bed6ccea6b5e48c",
+      "size": 11973,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-ff-change/SKILL.md",
+      "hash": "63b07985bc3a47f4c36fa2c25aeb82c14d600c8413677fb9762cffc4a27d178e",
+      "size": 7693,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-new-change/SKILL.md",
+      "hash": "52db66fe4acd3823c4ec1943afcf503e9f24eff2dcff3bb189747c08281c31d4",
+      "size": 3479,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-onboard/SKILL.md",
+      "hash": "4030bfe9f752ca9902569002b0911e6bc18e333d8807b603bf10b34b7a73c2a2",
+      "size": 15569,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-propose/SKILL.md",
+      "hash": "f336c80a63b4e62da1c1ef7928eb75552034dcef652dc312d09263fe67a26264",
+      "size": 8067,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-sync-specs/SKILL.md",
+      "hash": "f5031fa145f0d39db89b9f40ca0d3c9b110c4cc76a28f545c9d460468bb8134a",
+      "size": 9620,
+      "type": "file"
+    },
+    {
+      "path": ".codex/skills/openspec-verify-change/SKILL.md",
+      "hash": "f175c6f0fb16659f12af65ef7cfa97414ad859faf7a810cde78c8a4a9b88050e",
+      "size": 7453,
+      "type": "file"
+    },
+    {
+      "path": ".comet/batches/knn-perf-optimization.json",
+      "hash": "75e6b7070e2c85dd913f43dbc89a433664f8d3eab4c8cc2605edda0a2e07a28f",
+      "size": 1966,
+      "type": "file"
+    },
+    {
+      "path": ".gitignore",
+      "hash": "3c4619858160f32c888c698b6c63df3b2eae02273892664aa6b9012ec2ea2373",
+      "size": 481,
+      "type": "file"
+    },
+    {
+      "path": ".python-version",
+      "hash": "f01d748a75eb195e6fd73201279bfb23f09036ddd360eb3e9ff40ef042acbc8a",
+      "size": 8,
+      "type": "file"
+    },
+    {
+      "path": ".reasonix/desktop-topic-auto-title-meta.json",
+      "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "size": 2,
+      "type": "file"
+    },
+    {
+      "path": ".reasonix/desktop-topic-created-at.json",
+      "hash": "3d6872ad5739640d0c6484e53734b2a7599a80fe54fa1d5c59775c819e9eda0f",
+      "size": 120,
+      "type": "file"
+    },
+    {
+      "path": ".reasonix/desktop-topic-title-sources.json",
+      "hash": "0a15f0a942a8a65cbfd8b684e6981e6ca1601db65720fe21bfd06fe7c9cb5dd1",
+      "size": 110,
+      "type": "file"
+    },
+    {
+      "path": ".reasonix/desktop-topic-titles.json",
+      "hash": "91d6741f00d76386fd66eada3ae41573d0d783d5dd8f0d694d3a89d4957fd7d3",
+      "size": 119,
+      "type": "file"
+    },
+    {
+      "path": "AGENTS.md",
+      "hash": "5d39a2d9525253b95066731f5be5be3a5bb67622252c8da29f09f021bc1c3b71",
+      "size": 1446,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "hash": "5d39a2d9525253b95066731f5be5be3a5bb67622252c8da29f09f021bc1c3b71",
+      "size": 1446,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/README.md",
+      "hash": "71f6e7eea1aace701cb3e6d2f4413f45cefc655375e61cf7d6e8fe3d81fd48e8",
+      "size": 7533,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/__init__.py",
+      "hash": "3e56448a6ca5f60130b4d10ab1805e46af0d07e4019646e291b4627a2bcb7908",
+      "size": 87,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/cli.py",
+      "hash": "dcb0284154f46fb7b386fb5906f6a386d46c11aae5dca2acc3f9b3f3ca7006f6",
+      "size": 32413,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/config.py",
+      "hash": "bca44a596644e4f45b99a06713a19e64f81ca28e68091aebb95b445ade7e29c0",
+      "size": 304,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/coordinate_utils.py",
+      "hash": "ab6de92a58a7ce83b25935cdab5a3ed4734c3bcb69da6a0fee0e99de5a1a33bf",
+      "size": 5122,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/corpus_cache.py",
+      "hash": "409f6b1579a18c75c95b3909dc2e72252af960d1fa66f34031f7a1d82d5bba75",
+      "size": 8494,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/data_loader.py",
+      "hash": "9a52695abdd2399529e75faef71f4b18ca6345b17f9c4862c300a5bce11a0b6c",
+      "size": 6256,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/gpu_knn.py",
+      "hash": "b55501812bc800d069a5dd6ccf4c426f180b88d79dea53cb215d12d6cda1515e",
+      "size": 5263,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/importer.py",
+      "hash": "3e4206815e141cd31d7d2249ba1385e8d2b73a2813749bb6c1dfbb8e6e223912",
+      "size": 17059,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/label_mapping.py",
+      "hash": "44e189734de64ea7393c6fa84808c4f5c1a03f8fab2f48aab4eb3c18e8d7e38f",
+      "size": 636,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/manifest.py",
+      "hash": "d36af5f60790e33d64c648d0ba966fc3f624f8aefabd07a19187d90beb737faa",
+      "size": 2170,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/metrics.py",
+      "hash": "156ba8577f843ecd0877981761bf164c79a588bdd09e7a426183422a1e567cf2",
+      "size": 39472,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/qdrant_client.py",
+      "hash": "a2b9ead7b9634f999aa02bab10183273e0615e1cc91fa8fe15facafe905b9ac8",
+      "size": 8394,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/sampling_map.py",
+      "hash": "c1e153dcd11122eb593ade435bb700a446819e1aec877dcaf37e19b3dba8cd8a",
+      "size": 4966,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/searcher.py",
+      "hash": "f03a8e0b53eab03b30d1a93e2875e654ba6cd61e1672b070a464f45b802a27dc",
+      "size": 5338,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/__init__.py",
+      "hash": "db51f9043551e9f3b999e014582ae28f01aad51690ea8e05919d42bab9567faf",
+      "size": 41,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/conftest.py",
+      "hash": "82664fef352a85315d9be8ba4a5f5d1d3b184ccf2bf62949cc956cc9b13a135f",
+      "size": 4756,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_cli.py",
+      "hash": "9a59e66ce8bbd1378ee0da589ddd19007aea7781a747aebfcb786474b1eeda5e",
+      "size": 14104,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_coordinate_utils.py",
+      "hash": "bef419a3f948ff52d664d4395b9a03e84686928d1cfc7c98d821ce0383186e90",
+      "size": 6213,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_corpus_cache.py",
+      "hash": "1b2b9a9358ec1fe3d240582c4fefa4abadb67b71f9a2e53a49845d6805b380d5",
+      "size": 10849,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_data_loader.py",
+      "hash": "2b343aa2d67eb39028b2d67d88d1b7f1eaa6b81430f526abd883bb4751fe9cbb",
+      "size": 4565,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_gpu_knn.py",
+      "hash": "b1df255de807df03cb01e2afa6a29b0791997e8ac9e15a7a4013cb617af4e6e3",
+      "size": 5496,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_import_retry.py",
+      "hash": "4a5cdf15ed5d0532a5ebfb27f8d149ccee1c25cea72e47a0a93d566627388a3b",
+      "size": 10133,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_importer.py",
+      "hash": "c52252be92bbbe3b2af85c80bb764115bf8d0158ad642b666a4b49c7e7f8edff",
+      "size": 7628,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_importer_reindex.py",
+      "hash": "5c576bb4b8e62c0a23c10576265ca9793a9e74c6dc268a34131b7578f2152663",
+      "size": 2370,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_manifest.py",
+      "hash": "801c0f4c4a7365e5fb69aa3293ea1ace68a17216b1c9e2f4b0d326eba6869a74",
+      "size": 6120,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_manifest_in_import.py",
+      "hash": "2fb7dc82fad78b065113fb0ce9c2a6fe30f46dd3344b68875c011bd8511208e1",
+      "size": 4528,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_metrics.py",
+      "hash": "b5a225606c80e5be5ff054e58a29105878b31d854c223d7cd29b981e200dd79d",
+      "size": 88848,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_migrate.py",
+      "hash": "d06cb998b459bc252ce2f969de0ec0d79fb998465b2f75166f1c8ad349bd4733",
+      "size": 4799,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_progress_callback.py",
+      "hash": "08baef635fbd0264adca774e7e15ea723e00e1b973feb337eaa59043725fa77a",
+      "size": 5802,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_qdrant_client.py",
+      "hash": "0b46b5a352e02eb4c545f32bed6fb012b7f535ec76b7973b5a7a1e292c2d1dd6",
+      "size": 11384,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_sampling_map.py",
+      "hash": "e315a64b558165febb7ed8c84c0b72b6a196e40ec451bc85da8f34f127ecf495",
+      "size": 8577,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_searcher.py",
+      "hash": "761a3339544216990f7de530f571632ab3f34d257839f10b3bff1912cfc2bebf",
+      "size": 4246,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_start_qdrant.py",
+      "hash": "517685903b4a1b7c8ec6aad6a48967980ab1589a13e8c8c50616f733f0d7530e",
+      "size": 4759,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_ui_pagination.py",
+      "hash": "5097b1174d08b89ae1061decc12abaa82b4433e74f9a7d1bdba4cd2f24934327",
+      "size": 1689,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "hash": "ba5e11bc731b094cf3bf08fe485f048bb6ff9c4e4720f56a390d4b4e245416e3",
+      "size": 44970,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/ui_pagination.py",
+      "hash": "2e4f679fc2aa13a06b10156d91f4eef02a5849835ce7f8d43deba579d42c4a83",
+      "size": 1429,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/vector-db-knn-evaluation-requirements.md",
+      "hash": "8f63732f83f83470f1d7e926f5f31ad23450a47969aa7437fa9e815598d4c928",
+      "size": 8027,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "hash": "7d038d8b58c4bf11acf8f56d322799fe2f12e6f095da001bab37bc3c0746c825",
+      "size": 5140,
+      "type": "file"
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "hash": "405def5753e8fd1b1d30816309f73933a05f4f0675eb8484efee6a66f4c9287a",
+      "size": 74319,
+      "type": "file"
+    },
+    {
+      "path": "KNN评估方案参考.md",
+      "hash": "9c4a731cbbf888d9b90c3ad06bce872e75714b4a9e01609593d3107be88f4de5",
+      "size": 11662,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/README.md",
+      "hash": "e99e5305c3477c72686edf6673738861a539d2818a79b3354b131a552a26c4b1",
+      "size": 7408,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/__init__.py",
+      "hash": "5e8270c35f88ea0c17c0a97c7b53ceb61007c21ddff07de550fa619c36427651",
+      "size": 300,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/cli.py",
+      "hash": "0b0860ca614d7bd0d5a70a437a7cb81fbae2e65ea8d1bbe3fb98605f617617fe",
+      "size": 16962,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/config.py",
+      "hash": "0473e47be9d6fea089de433622e54f25c74afafcdacaa4c448f3b3ff2901a27d",
+      "size": 1165,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/dataset.py",
+      "hash": "6d5e2e7e5f92ae4781b63a6b6817ac9a825dc35e4447db042d9d321827a3c76d",
+      "size": 11524,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/diagnose_cpu.py",
+      "hash": "9fd3228befc638026ae9c34f9a420858abe70a370f276fd750d0ca18c75ec0fd",
+      "size": 3795,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/label_mapping.py",
+      "hash": "843700e0656b139b31c3de30b919185108336be4527adde966126f362d428347",
+      "size": 371,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/linear-probe-evaluation-requirements.md",
+      "hash": "9800751b66b82158c0126162c411d9da0dab894bb25e19ab89649ba16946a056",
+      "size": 6432,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/metrics.py",
+      "hash": "c6e0e558d7ec2c8f1e941b0b525c9d9a717713ffad82d04fabf935cf9102c7c3",
+      "size": 4813,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/model.py",
+      "hash": "3cf78e7a441ca0dd9af0acb7268ee25e5b6368e2ac1b036c1035b355b4975032",
+      "size": 5023,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/qdrant_client.py",
+      "hash": "34e99997abe0bf3d73458ebb4a7947a2a6431a88c7eb687a68d5c4a989d73c63",
+      "size": 3585,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/__init__.py",
+      "hash": "43397a3e1abcf9c14640bd61782c7a38292988693d802626524d85112e7e1e7d",
+      "size": 40,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/conftest.py",
+      "hash": "6c8ee5b0c4e0a5f30a0b2d095defdc60bf248ef32aa2e0a5979ecf4f6839a4c4",
+      "size": 383,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/helpers.py",
+      "hash": "ebe2cb1b5aacdf25f10479492e6140f43895795ed35d5e27bc55ac8e8a9db950",
+      "size": 4528,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/test_dataset.py",
+      "hash": "43a5607df6519b81b86de8a89977f125081f97ad9c0d25b6f20a5392f780de9a",
+      "size": 7938,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/test_metrics.py",
+      "hash": "b6b3847a0bb74c044cd2c7fb517a9082dbfabc8b6c8a41152c59fb9b37f07efe",
+      "size": 2906,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/test_model.py",
+      "hash": "49470a91236b27c6348e4c776d1206f8426ea9eb963c96c72334fc937e952b3e",
+      "size": 3993,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/test_trainer.py",
+      "hash": "cd562471ac518688cfeba0bf01e08ac47a39b1541e1b8f4887530971f48aabf8",
+      "size": 8532,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/tests/test_webui.py",
+      "hash": "c41ad6e8e0a4e603a203bb6f2fb025f1e658bcbdfba6b70d3d7eda9b2de4cf64",
+      "size": 17238,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/trainer.py",
+      "hash": "6e0bd63e89bba0015dfaac310a57ebaca261fe50f26e3aaed616c224b72f1dbd",
+      "size": 17580,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/visualization.py",
+      "hash": "99b3434721b07b0ad3e0b739af26bac0a111fb552993f29b932f1780c7501f3a",
+      "size": 4988,
+      "type": "file"
+    },
+    {
+      "path": "LinearProbe_evaluation/webui.py",
+      "hash": "8a30eb65489c4041559a213679e42063384afbde2a7d11e53dbea6b4a9fd12c6",
+      "size": 26734,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "hash": "2eac0850c5a36d3b2f90198d76b82bc944075a9386f555e87892b31d38bf6886",
+      "size": 4064,
+      "type": "file"
+    },
+    {
+      "path": "comet-classic-prompt-knn-metrics.md",
+      "hash": "9f3a120757f4c269b3d5b6b01ce394a80baf4a6bf42c549a28e67ecaf5adeaaa",
+      "size": 17037,
+      "type": "file"
+    },
+    {
+      "path": "comet-classic-prompt-qdrant-gpu-knn-analysis.md",
+      "hash": "d76908cf5852f51e76800afab894028ca4ea884ec08356afc3006746301c4c3e",
+      "size": 18044,
+      "type": "file"
+    },
+    {
+      "path": "comet-classic-prompt-qdrant-memory-startup-optimization.md",
+      "hash": "d67e8047ad4902d7a37e7e8b2e23f04ef74a457d6f9c87dcf44521384cc80b4a",
+      "size": 22348,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-29-satellite-embedding-loader.md",
+      "hash": "c102100d79aceea295a2b710118842c752d88c8fb4ae283f92c30ea8b0c45b38",
+      "size": 40781,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-30-qdrant-knn-evaluation-plan.md",
+      "hash": "092784f5af7a2356a609bb21e2cb280247a5aec7e828248e84ee8f0b9321c4fb",
+      "size": 76442,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-31-embedding-quality-metrics-gpu.md",
+      "hash": "587d670c975b43d3a2ae377842dcab8cdabf63a550537fe816fd5d915c77d559",
+      "size": 12776,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-07-31-embedding-quality-metrics.md",
+      "hash": "918667d5fbbae97b7130f668deb1b445711454944926fd80feada69eb194ee92",
+      "size": 64924,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-01-data-import-optimization.md",
+      "hash": "138c1f69031e8acca3c301547d162a2e66dd61fe9703d3390cb8814bea8248ee",
+      "size": 58956,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-02-gpu-knn-scale-evaluation.md",
+      "hash": "af6ac59b274cc52d06361dee7dee0adfc41980b3463c56f5ae41795316d9a813",
+      "size": 79491,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-02-qdrant-memory-startup-optimization.md",
+      "hash": "24a37907d927b7a439ffcf03e8f5805f46d997d74f84844a8b308e42f39a48c2",
+      "size": 81970,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-07-29-satellite-embedding-loader-verify.md",
+      "hash": "a4850386ee10e7b5be6596220f738e05f3396a7a865046613e75b15908695ca2",
+      "size": 2912,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-07-30-qdrant-knn-evaluation-verify.md",
+      "hash": "e979daac4be7ac8c9f028733e7d49c4148aab3b689276b5582c63578e70e6c7d",
+      "size": 6885,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-07-31-embedding-quality-metrics-verify.md",
+      "hash": "9145b603e87aa1acc1b20b4bd0b16ccf62cedd1674833972e0f748249718cbef",
+      "size": 3275,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-08-01-data-import-optimization-verify.md",
+      "hash": "49464d9cfd125838180086a3f038ceda7f4473d784165165111f3f82ad0436c7",
+      "size": 4224,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-08-02-qdrant-memory-startup-optimization-verify.md",
+      "hash": "510397fe93a237ec02f46bdd0f5e346506cf8e987f0f9635a89e7aa29369dd88",
+      "size": 14586,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/reports/2026-08-03-gpu-knn-scale-evaluation-verify.md",
+      "hash": "e3c9a461f6f2ff2213076b62ba073a5be9893c75bf1e6962e06e7698700d77eb",
+      "size": 5490,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-29-satellite-embedding-loader-design.md",
+      "hash": "8366b5063f44cd7468e61e3c7945c62beb012fa66bbea067786a8ba8c19d03e7",
+      "size": 9231,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-30-qdrant-knn-evaluation-design.md",
+      "hash": "4732095036980068aa9fe1bfcc0d3d615e893577ab00e366f02cefb131831a9c",
+      "size": 10407,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-31-embedding-quality-metrics-design.md",
+      "hash": "72ae9ed22a6f68866397027648638838c961f3ece53b186ac3f7b9513d505030",
+      "size": 12057,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-31-embedding-quality-metrics-gpu-design.md",
+      "hash": "0bfa4bfd977683482e130c5b302ff94ebe292a6051c4ecc928e35e6347a0c442",
+      "size": 2498,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-01-data-import-optimization-design.md",
+      "hash": "de10515c32f7494f00e78ad9f8d681dbead5001c6b968a2a99aea6a69361f332",
+      "size": 10303,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-02-gpu-knn-scale-evaluation-design.md",
+      "hash": "711a93c0409cc6520370d179a8855fd27858a4324bad4f33763ba505c0c1ea40",
+      "size": 20351,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-02-qdrant-memory-startup-optimization-design.md",
+      "hash": "563c9fb0922e2d69bd231fa7e66d1bc7be7a2c12f7cb842d22321e607634f731",
+      "size": 12862,
+      "type": "file"
+    },
+    {
+      "path": "main.py",
+      "hash": "7ba6ca58c3827e1c931a5eb0e910cc806a6bcd176f1f33534fa65d1068f162f8",
+      "size": 96,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet.yaml",
+      "hash": "4243d916c6b4931db1e8d2ac57ea5588be1c72ed68bd492c95287743eefe08ca",
+      "size": 979,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/artifacts.json",
+      "hash": "30dc840f70e2930af0453791f2739a371c88eb973db96805ef38e1ab3fa17ebe",
+      "size": 642,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/checkpoint.json",
+      "hash": "9efd3fbd1fb4274f560ffab8b2dc23ca872c8b7db833aad79bc933478d3ffedf",
+      "size": 317,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/context.md",
+      "hash": "56fcf93e52c5255b1c7e4e8a7c4c952a5e2b2610a4365a13b203e3f2ccd38a22",
+      "size": 15034,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/handoff/brainstorm-summary.md",
+      "hash": "19a174286074f80186001312c4320f635764cdf3414ad2aaaa71421bb8cd0860",
+      "size": 3617,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/handoff/design-context.json",
+      "hash": "830a2b476dd787a1dfec53a2a84abc97a12f2f950294207de668d4af1656bdee",
+      "size": 1071,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/handoff/design-context.md",
+      "hash": "56fcf93e52c5255b1c7e4e8a7c4c952a5e2b2610a4365a13b203e3f2ccd38a22",
+      "size": 15034,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/run-state.json",
+      "hash": "d3d822defd98ebfdcd1d44c51614a2f8265299cd4d2dd806eb2590cd48a54b32",
+      "size": 550,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "44cfc9cee00c3ddcd065d241d6e0f017f26cbaafd82b2915b67309291a90d268",
+      "size": 7851,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "0472daf14db10eede85a433b44e3edb64aeac278179db2bf7fadf60d23c8baad",
+      "size": 65,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/state-events.jsonl",
+      "hash": "6a6e9abe4c0795617e108c1e0566c02b6eda01e7d109f11cfe17ad1625feffea",
+      "size": 16395,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.comet/trajectory.jsonl",
+      "hash": "5bcce7f701a0a70a6caa8d8a19736a7f3beae5d20d0773c45407f096b7bce774",
+      "size": 4045,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/.openspec.yaml",
+      "hash": "2976103ed6b60190e61a51c305fd25386db116adc384fffd02652f6b68266be6",
+      "size": 40,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/design.md",
+      "hash": "bf60093f3bfb5dae104476f25890ab23033e911d163aee7af70a87b1fb30b289",
+      "size": 3859,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/proposal.md",
+      "hash": "a0fd9057bae228ba35dc8c619692de34ce8b7eb3799994d0543828fb33ce4734",
+      "size": 1925,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/specs/embedding-data-loading/spec.md",
+      "hash": "98f732a6cee175ba4b1646796a6913f4406cc274d5193a46360f0be0c87a28b0",
+      "size": 4433,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/specs/embedding-visualization/spec.md",
+      "hash": "177a683bbec4c13e54ae1241bbf1271e2a530ed7e7cafa5d86c2dcb06f308acf",
+      "size": 2177,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-satellite-embedding-loader/tasks.md",
+      "hash": "bcdb56eb737ec92e6cfb6bc46fb609bcdf097da3d839f31360507b76115c21ef",
+      "size": 2031,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet.yaml",
+      "hash": "c619cd70cb29e1822ab3552e0e4048fca4457f12f884c78e57554e961f9916c2",
+      "size": 1059,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/artifacts.json",
+      "hash": "0c719b49b36850d2c41c0bb4e82e90eff16462b1128d54c348ab11e0b3c7c6a6",
+      "size": 611,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/checkpoint.json",
+      "hash": "3d484196ca094004974f0b73ca795df05b596dc7c8fbbfbc97cce087005f885d",
+      "size": 325,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/context.md",
+      "hash": "862b5ddde7266953d31bab839a813678bf59a50f48d7a5038f14b37e2c9ceed0",
+      "size": 19985,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/handoff/brainstorm-summary.md",
+      "hash": "ede0545aa3354508df95b3deb995ae655e1a6f456c44971ad2f0ea4ba8a8d50a",
+      "size": 2241,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/handoff/design-context.json",
+      "hash": "3db2d92601572afba503fecb98535e3ecae686dc22b718edb08d14444428ad01",
+      "size": 1048,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/handoff/design-context.md",
+      "hash": "862b5ddde7266953d31bab839a813678bf59a50f48d7a5038f14b37e2c9ceed0",
+      "size": 19985,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/run-state.json",
+      "hash": "7654175072e3527bd3a6d23e932ef5989e02a42596057d7919a2d98e5b4f61b4",
+      "size": 566,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "ef25803267a83800ff67460aabefb620ad73767dd41ac7bc01131209ad01af50",
+      "size": 8171,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "e534936d7adc33b83065ff930b8e5d490c35bf296da73a0a6479419165e0614c",
+      "size": 66,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/state-events.jsonl",
+      "hash": "4d4aee202fe69e6d4ffe7cfbaebe7a31c88bc0451049e61a4298143dbce898e3",
+      "size": 27147,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.comet/trajectory.jsonl",
+      "hash": "c0e0bfeef7cee9e5554e9730081c66bdcd25d750237cb3d6d9439ff385661dd4",
+      "size": 6487,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/.openspec.yaml",
+      "hash": "374cd6dd1cd4a00ebe9fc9e03c9a88dd9069033b298ac88136c45dccda20cc53",
+      "size": 42,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/design.md",
+      "hash": "8c1bd43ba8dd13bdd991999bf0bdfb21b754a9856e492e6c579476c1703adab2",
+      "size": 6943,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/proposal.md",
+      "hash": "7706f339225d9d8c4bc70098b51f28615886ce919462dab70e3153394f243c59",
+      "size": 2420,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/specs/pixel-data-import/spec.md",
+      "hash": "2a73e1233b8849bf63afa7d834094743784e33cb46c275cc5ee8acc4ba7f5cb9",
+      "size": 4373,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/specs/vector-scalar-search/spec.md",
+      "hash": "48fcf0ac927e4e5a8a68462620fa72c9fdd43f6cd90ed38ec88ed5aa26d10048",
+      "size": 3809,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-30-qdrant-knn-evaluation/tasks.md",
+      "hash": "2b86f430385f4632335790ee0a026011a93e10d63afc55c44539437a790db767",
+      "size": 4233,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet.yaml",
+      "hash": "975a52670d1b0b4870026a2b04e66c3246407d2a697e9741b32e2e5b33a16781",
+      "size": 952,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/artifacts.json",
+      "hash": "4b4962a012614cf7329ea7d50905bfbc5f9d1c13d6c8de34c6ad06115758fef8",
+      "size": 642,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/checkpoint.json",
+      "hash": "f76c954403bd635f88948e07441a86ff6100784602ade7b27302ff0760870ddd",
+      "size": 325,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/context.md",
+      "hash": "41039632596c238f41030b408f685bcc73bfd31b9c7f9cc95de590415a11de89",
+      "size": 17064,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/handoff/brainstorm-summary.md",
+      "hash": "98c6f4afda65ff519b81ded1cad65028378991940621769ef6c4d75d2f53f5fd",
+      "size": 2323,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/handoff/design-context.json",
+      "hash": "b4691088bb81b8f3d217bde863810c49011d38f20f1611fedc867fbffd2aea2f",
+      "size": 899,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/handoff/design-context.md",
+      "hash": "41039632596c238f41030b408f685bcc73bfd31b9c7f9cc95de590415a11de89",
+      "size": 17064,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/run-state.json",
+      "hash": "1968c3f6d86d6e7e2e88093c5f970d30bf3e06ccd1c94ec65d11ff4dd11fe035",
+      "size": 566,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "ef25803267a83800ff67460aabefb620ad73767dd41ac7bc01131209ad01af50",
+      "size": 8171,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "e534936d7adc33b83065ff930b8e5d490c35bf296da73a0a6479419165e0614c",
+      "size": 66,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/state-events.jsonl",
+      "hash": "2760e64718e12ccbdac25818701898d2582e508d7dac52a9983eb8e54900749f",
+      "size": 99795,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/subagent-progress.md",
+      "hash": "40629f97d240cd2faf2147c3d65d243c50fc01ccc1238c617dfeae29fd352890",
+      "size": 190,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.comet/trajectory.jsonl",
+      "hash": "f66118b7a8114bc40d02dd396191876e990ec19d19aa49539e5b3a26a6eca369",
+      "size": 24199,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/.openspec.yaml",
+      "hash": "bfc2282cc1c633512c0df9577be3fcdbf88d253f6e43cc01036dac2157bee61c",
+      "size": 42,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/design.md",
+      "hash": "aaf41f64023a8a4a10e8d62376eb88e875869ded64d120dc87206856cd3c9fd9",
+      "size": 7915,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/proposal.md",
+      "hash": "10700f17e039f08d7e48bcfeccb7046541a120a2347eefa19aa4bc46a2e7bb26",
+      "size": 2304,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/specs/embedding-evaluation/spec.md",
+      "hash": "2c7d00c4607ea67ff60459355085e1b86ec8fef2d59320fbb9d9c2bfd1bac2e9",
+      "size": 7024,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-31-embedding-quality-metrics/tasks.md",
+      "hash": "e94c619f818e3442dee19553b47c447b52df85689cd9e3abd33cfe326f9b4d6a",
+      "size": 4221,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet.yaml",
+      "hash": "7d80fc19bd5ddbfd04ecdd4faee20ee1e401c654f42799d7576fc0359b3412a7",
+      "size": 1058,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/artifacts.json",
+      "hash": "d882840eeba257eed8f36abd438b4a7737b48189f45909cfafac0134596c5933",
+      "size": 623,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/checkpoint.json",
+      "hash": "59883118896007148b9dfe06e0d0e8669e5dbfd6693e3ae8f05fc1d03400c27e",
+      "size": 317,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/context.md",
+      "hash": "f404e8a443b3f12db488835d4e313c1909b6756b46fc04aa285b2ffa2efd3150",
+      "size": 18478,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/handoff/brainstorm-summary.md",
+      "hash": "4c33440c0eeda41a1aaef47496138e237db11d68103c4f6bd98641eeff0823ec",
+      "size": 2892,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/handoff/design-context.json",
+      "hash": "38a654c11fe1d53e9dad7b0831195a96b914b727414191c7a56fc0b47637291c",
+      "size": 877,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/handoff/design-context.md",
+      "hash": "f404e8a443b3f12db488835d4e313c1909b6756b46fc04aa285b2ffa2efd3150",
+      "size": 18478,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/run-state.json",
+      "hash": "87e72556edaf25f5d1ecc155f8c7b7426a551ef532f37b4f3468ed96bb7e39de",
+      "size": 550,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "44cfc9cee00c3ddcd065d241d6e0f017f26cbaafd82b2915b67309291a90d268",
+      "size": 7851,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "0472daf14db10eede85a433b44e3edb64aeac278179db2bf7fadf60d23c8baad",
+      "size": 65,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/state-events.jsonl",
+      "hash": "269943067e92990e81d19ce1c9a937e1d462198a244ce652181f607ab5f17aac",
+      "size": 68008,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/subagent-progress.md",
+      "hash": "61980923314a0d5f94e09357423019c6051c1c0f971b00ebcfac884753bf6494",
+      "size": 675,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.comet/trajectory.jsonl",
+      "hash": "f55e0d59446becf6650839ebe224003b864622d03bad34acb0df1f31362b108a",
+      "size": 12382,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/.openspec.yaml",
+      "hash": "b119b105317d193bebcdb8337e8fd44be5d371b38eb0b054ec607c1c654125e5",
+      "size": 40,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/design.md",
+      "hash": "c9d6cba94be5dc131892f92785c1a4f782dcd2c13a7a23519b13ec5dee802088",
+      "size": 10921,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/proposal.md",
+      "hash": "702c92b315daff8dd930ed3fb55ffd81d67f57f69e4cea699aab4c730e8579eb",
+      "size": 3231,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/specs/pixel-data-import/spec.md",
+      "hash": "44b014679840e698fc0d4807f47dc1dffb5f3a928e5ccd1547d10ce2985f072b",
+      "size": 6645,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-data-import-optimization/tasks.md",
+      "hash": "e970703b74a9160384bd431eda66f03490373c7ad61c79656f8e11259269a5d1",
+      "size": 5182,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet.yaml",
+      "hash": "2f8d3611b1fe06a22bce3008a746151c6e8e68243690b344ee1267ce26975f4d",
+      "size": 1108,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/artifacts.json",
+      "hash": "6474fa80e85a9e4db5afa64d16662e1b2b8adc714ab9f891706d675f787c939f",
+      "size": 695,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/checkpoint.json",
+      "hash": "ede1436fbea58923c0d2a030b4885aa313a4beae522b754a674ee6fbabaa8b28",
+      "size": 317,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/context.md",
+      "hash": "446d5a1fa5b132dd07e59a981e73b5ba4270a26cddc0c80ab7bb37dc36299220",
+      "size": 32065,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/handoff/design-context.json",
+      "hash": "e60a73fa0a7c8eebf77e92f37470dda6062bdce4b29e3dd61a549db52a851d19",
+      "size": 1660,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/handoff/design-context.md",
+      "hash": "446d5a1fa5b132dd07e59a981e73b5ba4270a26cddc0c80ab7bb37dc36299220",
+      "size": 32065,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/run-state.json",
+      "hash": "070c91a499af0138d8e25eff7e5098b5d40462c38d413f1cfd2770cd24adec77",
+      "size": 550,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "44cfc9cee00c3ddcd065d241d6e0f017f26cbaafd82b2915b67309291a90d268",
+      "size": 7851,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "0472daf14db10eede85a433b44e3edb64aeac278179db2bf7fadf60d23c8baad",
+      "size": 65,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/state-events.jsonl",
+      "hash": "d68267cd49315ae4c1dc3327c5ff0fa87b49a9f7f96cb913f4a7290e0bc3f453",
+      "size": 28258,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/subagent-progress.md",
+      "hash": "bd80402045dc20a60957ac3342cd80ea751779788f2185e876dd3faa35f76533",
+      "size": 802,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.comet/trajectory.jsonl",
+      "hash": "87246271202e0078eda111ccdc4f07ffbf7cc71b007bbd15e1323f0e6fa45367",
+      "size": 6910,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/.openspec.yaml",
+      "hash": "f9584bdded4f054361ae2ee826987f38348fb9f852d6ff60b1beb96fb01b7109",
+      "size": 40,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/design.md",
+      "hash": "88d454eea7e4705dd052f704d7b7219b0909245aff98f31a918aca3e43f336b9",
+      "size": 7336,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/proposal.md",
+      "hash": "5e18d77c36885ba577ad357c59d7c39af5a0b977f2c4eb99d5381088948ce80f",
+      "size": 6152,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/specs/disk-backed-storage/spec.md",
+      "hash": "cb44390dbfebc4b5560b899ddff3fc61c97ff2743fc5b0f668b76a34cf221892",
+      "size": 3408,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/specs/embedding-evaluation/spec.md",
+      "hash": "64888e881863f0bd60fe7ce12be3e726169676ceac4192d85a080c29c40f5a34",
+      "size": 2659,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/specs/embedding-visualization/spec.md",
+      "hash": "47edcae60642e6d885648c331f099193e8343c3ac0e356740db3f1bb36110a62",
+      "size": 2611,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/specs/import-manifest/spec.md",
+      "hash": "b6aaf0c092554b018303f7228c177515e3f9a3327cbd87c0e310e010acd08675",
+      "size": 3223,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/specs/pixel-data-import/spec.md",
+      "hash": "d74954f4e08ed3cbe66df6629f3e0637433630d6a53576d8504a1d0d09a5d611",
+      "size": 1403,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-02-qdrant-memory-startup-optimization/tasks.md",
+      "hash": "c0591eda77a1beafc6ef158ed6eeea6e2984ed04a9d0e88f5cbb40b2b1bfb9e1",
+      "size": 3827,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet.yaml",
+      "hash": "c55545050fd9e723c65e743954a482b6cca19b64c59bca47260e6202812d45db",
+      "size": 1058,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/artifacts.json",
+      "hash": "d00945a20f552e2e787bd5ca16c3cc97e2f78ef5df0fc706b4f7ca8ca6e4fc38",
+      "size": 626,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/checkpoint.json",
+      "hash": "8d5653aea911d9157073790a6c4e0169556686f2c1ca41258272c51290e8f087",
+      "size": 317,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/context.md",
+      "hash": "d16538567777715f349c46023bcb016c263a29e41d5accf26ac65ccfbfe5c616",
+      "size": 23242,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/handoff/brainstorm-summary.md",
+      "hash": "5c9cfb05b8dd5bb9a5f2b60758edd24565faf15505c7aef01f548377b0d5c4f4",
+      "size": 3749,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/handoff/design-context.json",
+      "hash": "fbdbecc7f4549b29a6cf605911aa5bce51eaf8ed619830722e1db484b52c3df0",
+      "size": 1058,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/handoff/design-context.md",
+      "hash": "d16538567777715f349c46023bcb016c263a29e41d5accf26ac65ccfbfe5c616",
+      "size": 23242,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/run-state.json",
+      "hash": "c8df6a68befb360d9fc6917ec8f13c0382403e87c5d3ae8ecb93beab050f7f43",
+      "size": 550,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/package.json",
+      "hash": "44cfc9cee00c3ddcd065d241d6e0f017f26cbaafd82b2915b67309291a90d268",
+      "size": 7851,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/skill-snapshots/9bd4ffab011ae18aef91dc0db336ffc12d454b513229178c15b8b75d50930ba1/sha256",
+      "hash": "0472daf14db10eede85a433b44e3edb64aeac278179db2bf7fadf60d23c8baad",
+      "size": 65,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/state-events.jsonl",
+      "hash": "7195183765a057441a5944b93d6d9ea1f944c71c9d8dbfac959bde96bada5a80",
+      "size": 87372,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/subagent-progress.md",
+      "hash": "a601d8819f3a8e029663eca940d2074c4ddaafb116074c457ca815041f5981a7",
+      "size": 510,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.comet/trajectory.jsonl",
+      "hash": "2a0ee633836ddd8445de906bfc1f3b58431f39dc359b4ad6425715f2ccf51632",
+      "size": 16545,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/.openspec.yaml",
+      "hash": "b119b105317d193bebcdb8337e8fd44be5d371b38eb0b054ec607c1c654125e5",
+      "size": 40,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/design.md",
+      "hash": "436d64ee1328a5971e46f8957666a4cc5fcf46d67bfa52cb8e6040740ca90a46",
+      "size": 7776,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/proposal.md",
+      "hash": "0698050cf9a72f13aa2849e9d41aa0af09db91dae5c2da213ebdb80f1fca33ad",
+      "size": 3520,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/specs/embedding-evaluation/spec.md",
+      "hash": "ae9fdabb12e0b7525607780ac41ccde0fc9015ed8b91367e54ff06e7aa86a781",
+      "size": 6739,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/specs/gpu-scale-knn-evaluation/spec.md",
+      "hash": "628b4c97dfaf434dd3f89703aa61f6e6c9e71ffa8e1fc6491b60c23fc3223215",
+      "size": 4910,
+      "type": "file"
+    },
+    {
+      "path": "openspec/changes/archive/2026-08-03-gpu-knn-scale-evaluation/tasks.md",
+      "hash": "6bcb51e0a9c8fb5d0b15a8465fc53e5549a51cedf9ca104929b64c252b77ae31",
+      "size": 7927,
+      "type": "file"
+    },
+    {
+      "path": "openspec/config.yaml",
+      "hash": "2a791b0ccc50e2c2ebbb3ba28692a4ad0e4b6ab94ed2151375ac404d7056e89a",
+      "size": 922,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/disk-backed-storage/spec.md",
+      "hash": "52d30e3273dcc1512b67ae00a66891da7be0d3b294733634b045cf5e6f004fb0",
+      "size": 3437,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/embedding-data-loading/spec.md",
+      "hash": "7bffb94f48cf6d3c5a6d5ff6900be0f2e0a88197485c8afac94e399e6df5a72b",
+      "size": 4465,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/embedding-evaluation/spec.md",
+      "hash": "4478b6754887cd5ae1a8cc346f8fba2d66793a75461acd0af99dad875ca9790d",
+      "size": 8009,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/embedding-visualization/spec.md",
+      "hash": "38422caece3f610c5e52bb787719235b370295849ff6531adfc4334a1558417a",
+      "size": 4331,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/gpu-scale-knn-evaluation/spec.md",
+      "hash": "5c9a0b5965ede32566e79dd3a9b03a7405f05162f640b1398deae7f4ce9b4127",
+      "size": 4904,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/import-manifest/spec.md",
+      "hash": "f93145d85f6795a207f7984f23037d5739d1a98979c5499db32e659cc119c867",
+      "size": 3248,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/pixel-data-import/spec.md",
+      "hash": "ed15cac6e21f84b930cc0797dc2f6dda34548d5e190417f79c98c93895406567",
+      "size": 10748,
+      "type": "file"
+    },
+    {
+      "path": "openspec/specs/vector-scalar-search/spec.md",
+      "hash": "786e0ac15ca2f6bf4a107d31a7fb0f1e1d8c6ae7e220d4527e029258342a0807",
+      "size": 3839,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "hash": "a1de75b9f9ad5d79e3b88837955cb4ca024f4d3b1dfe8c07b4af5e14cb23d81e",
+      "size": 758,
+      "type": "file"
+    },
+    {
+      "path": "skills-lock.json",
+      "hash": "f95f23b4d28adb83cc04467aad26d7e03fc2410f37dc6964f726da4f67273966",
+      "size": 3573,
+      "type": "file"
+    },
+    {
+      "path": "src/__init__.py",
+      "hash": "e79f4e088ae5241afe5408b20ac963bdc80477c7f5b610173f6861fe2dc7306e",
+      "size": 18,
+      "type": "file"
+    },
+    {
+      "path": "src/embedding_viewer.py",
+      "hash": "1d0e5f29a9e434ab901a14206fdbfa677838a4da2c3fa20bd1c57550c1ec0b8c",
+      "size": 20257,
+      "type": "file"
+    },
+    {
+      "path": "src/satellite_embedding_loader.py",
+      "hash": "f928541598065f331c7e23ee53958c18d3b843171a91a10af019c6c38d3a4ab7",
+      "size": 7440,
+      "type": "file"
+    },
+    {
+      "path": "tests/__init__.py",
+      "hash": "89588b0c2be9d872060e78aa68ccf95f94ca27ea6bcb79a43509d66c296c73ce",
+      "size": 20,
+      "type": "file"
+    },
+    {
+      "path": "tests/conftest.py",
+      "hash": "6473ca2453bb122c630f28c25e1e6633dd7b11d82a94fcf51439703b5b316fb2",
+      "size": 2825,
+      "type": "file"
+    },
+    {
+      "path": "tests/test_loader.py",
+      "hash": "53469294084ef8c4181fb96ab19e2d273edbcf0b923766f9806c4e8c811cbb0a",
+      "size": 5858,
+      "type": "file"
+    },
+    {
+      "path": "uv.lock",
+      "hash": "9a8b0a9602d9b5322555ed81ec233396522ac2cf3c7afdd237a4dab629cb7b1d",
+      "size": 511505,
+      "type": "file"
+    }
+  ],
+  "omitted": [],
+  "omittedCount": 0
+}

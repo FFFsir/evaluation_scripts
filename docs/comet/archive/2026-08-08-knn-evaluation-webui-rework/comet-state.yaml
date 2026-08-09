@@ -1,0 +1,23 @@
+schema: comet.native.v3
+minimum_runtime_version: 3
+revision: 5
+verification_protocol: legacy-v1
+name: knn-evaluation-webui-rework
+language: zh-CN
+phase: archive
+brief: brief.md
+approval: confirmed
+approved_contract_hash: 31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832
+spec_changes:
+  - capability: knn-evaluation-webui-rework
+    operation: create
+    source: specs/knn-evaluation-webui-rework/spec.md
+    base_hash: null
+verification_result: pass
+verification_report: verification.md
+implementation_scope: runtime/evidence/scopes/c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d.json
+verification_evidence: runtime/evidence/verifications/36c9d3bc10eb595300805335dbcb291181fadd1fa248017046b5244389286f22.json
+partial_allowance: null
+archived: true
+created_at: 2026-08-08
+run_id: 63b0b2f1-ace6-4474-817f-5ccebf56986f

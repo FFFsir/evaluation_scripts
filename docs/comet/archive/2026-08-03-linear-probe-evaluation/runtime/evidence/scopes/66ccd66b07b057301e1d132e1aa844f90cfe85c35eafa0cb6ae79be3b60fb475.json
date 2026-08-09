@@ -1,0 +1,15 @@
+{
+  "schema": "comet.native.implementation-scope.v2",
+  "contractHash": "daa787ffccecc32f4a802dae83a0d7b5f9cf8b1fe8015361fe8b0934e5908cf0",
+  "baselineProjectionRef": "runtime/evidence/snapshots/a6470db66ac8ba289d65aafa87d7700708ca7af5dde167514724c7574de1eb51.json",
+  "baselineProjectionHash": "a6470db66ac8ba289d65aafa87d7700708ca7af5dde167514724c7574de1eb51",
+  "currentProjectionRef": "runtime/evidence/snapshots/5a6c3115637668aaaee7e678ab347e1dd81ab0cc53566d53fb95b9ba769accb8.json",
+  "currentProjectionHash": "5a6c3115637668aaaee7e678ab347e1dd81ab0cc53566d53fb95b9ba769accb8",
+  "complete": true,
+  "declaredArtifacts": [],
+  "changes": [],
+  "unattributed": [],
+  "unresolvedScopes": [],
+  "noCodeReason": "实现代码在 change 创建前已完成（用户要求对已完成工作补录归档），当前快照相对 baseline 无新增变化",
+  "scopeHash": "66ccd66b07b057301e1d132e1aa844f90cfe85c35eafa0cb6ae79be3b60fb475"
+}

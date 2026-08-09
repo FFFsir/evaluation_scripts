@@ -1,0 +1,14 @@
+{
+  "schema": "comet.native.workspace.v3",
+  "capturedAt": "2026-08-08T09:38:19.100Z",
+  "capturedRevision": 1,
+  "nativeRootRef": "docs/comet",
+  "projectRootId": "4ba29c37672c4eade3ae677dc9e7f06bb78d942ccb03c42e2b04ffbcc5367230",
+  "nativeRootId": "3110f97d70c77fbb4518cb35729a1d7a318ab27c90dd81caf0977d0d7bbae9c9",
+  "projectRootPathId": "88e8f4774f53fe2c8780a27f6564c0806b17db90b691163817b8451b437abe3b",
+  "nativeRootPathId": "c368ba35f14546d9bdbe23654d5c798a3f4f3d17e7ebfdbf6365af31b4e368d5",
+  "isolation": "worktree",
+  "changeBranch": "comet/knn-evaluation-webui-rework",
+  "targetBranch": "tweak/20260808/linear-probe-collection-selector",
+  "finish": "merge"
+}

@@ -1,0 +1,22 @@
+schema: comet.native.v3
+minimum_runtime_version: 3
+revision: 5
+name: linear-probe-evaluation
+language: zh-CN
+phase: archive
+brief: brief.md
+approval: confirmed
+approved_contract_hash: daa787ffccecc32f4a802dae83a0d7b5f9cf8b1fe8015361fe8b0934e5908cf0
+spec_changes:
+  - capability: linear-probe-evaluation
+    operation: create
+    source: specs/linear-probe-evaluation/spec.md
+    base_hash: null
+verification_result: pass
+verification_report: verification.md
+implementation_scope: runtime/evidence/scopes/66ccd66b07b057301e1d132e1aa844f90cfe85c35eafa0cb6ae79be3b60fb475.json
+verification_evidence: runtime/evidence/verifications/c4996f24674db69a6beff697a8844ec2254b4520cffbd9c73252e8db57fdaf0a.json
+partial_allowance: null
+archived: true
+created_at: 2026-08-03
+run_id: d8570126-112e-4250-9c24-a571ee93ee40

@@ -1,0 +1,29 @@
+{
+  "schema": "comet.native.verification-receipt.v3",
+  "kind": "static-inspection",
+  "role": "required-check",
+  "status": "passed",
+  "bindings": {
+    "change": "knn-evaluation-webui-rework",
+    "sourceRevision": 3,
+    "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+    "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d",
+    "snapshotHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+    "artifactHash": "a5ed4a584eacc57759e9ce04ccb7ab3683c5ee2bd624550457605005b13a5815"
+  },
+  "acceptanceIds": [],
+  "actor": "native-runtime:scoped-text-safety",
+  "issuedAt": "2026-08-08T10:30:30.113Z",
+  "evidence": {
+    "subjects": [
+      "KNN_evaluation/tests/test_webui.py",
+      "KNN_evaluation/visualization.py",
+      "KNN_evaluation/webui.py"
+    ],
+    "rule": "scoped-text-safety",
+    "resultSummary": "The built-in scoped inspection passed without skipped or blocking input.",
+    "checkReceiptRef": "runtime/evidence/check-receipts/e99be2c62aa41ce31da4f5b045ba50c4b59e962090d2f05b8897159456a81251.json",
+    "checkReceiptHash": "e99be2c62aa41ce31da4f5b045ba50c4b59e962090d2f05b8897159456a81251"
+  },
+  "receiptHash": "24c2942f8cccd0e6f3f67a7f222eb4c2e8b75c6fb6c304d072caa78f16a29816"
+}

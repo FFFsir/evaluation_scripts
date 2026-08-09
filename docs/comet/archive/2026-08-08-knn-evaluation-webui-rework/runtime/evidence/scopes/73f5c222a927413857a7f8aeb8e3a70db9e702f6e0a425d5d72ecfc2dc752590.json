@@ -1,0 +1,112 @@
+{
+  "schema": "comet.native.implementation-scope.v2",
+  "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+  "baselineProjectionRef": "runtime/evidence/snapshots/9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6.json",
+  "baselineProjectionHash": "9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6",
+  "currentProjectionRef": "runtime/evidence/snapshots/0cd7d58a68c2daf0b545d1da1692823a7738c6537fbdab77051406eb282b5414.json",
+  "currentProjectionHash": "0cd7d58a68c2daf0b545d1da1692823a7738c6537fbdab77051406eb282b5414",
+  "complete": false,
+  "declaredArtifacts": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "file"
+    }
+  ],
+  "changes": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "d34648c4704aa445f02a82b2b782e753905477f93298167edd5678d5c05ef429",
+        "size": 107934
+      },
+      "after": {
+        "hash": "89cb47415f0bac971804b50b7ee558dabf9fb5c56b62eddfea9334e0bd3b875f",
+        "size": 27584
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/tests/test_webui.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "modified",
+      "before": {
+        "hash": "1341dae9723423cee56ffa89a2678ee2ad94548b3c50167d715929a314da309c",
+        "size": 6631
+      },
+      "after": {
+        "hash": "3788c109ec72615e4b4c3b85afd2b900af6ac31e7c1ca39f8b4e3ca0784cb724",
+        "size": 7728
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/visualization.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "5df60ac6804751a6dc17b4e943c729b49666e50e5936ad86eea3a18519013df4",
+        "size": 95896
+      },
+      "after": {
+        "hash": "9771ccb3e0d0715c21ef0569c9e3bb1f6df294855e54cb25fb77cd32fcb93835",
+        "size": 88608
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/webui.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "specs_backup_brief.md",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "862004842db3f6afb2ab7c76aa85b1585faf8236e1c8e89bd50b61eaef624ced",
+        "size": 5189
+      },
+      "attributedTo": []
+    }
+  ],
+  "unattributed": [
+    {
+      "path": "specs_backup_brief.md",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "862004842db3f6afb2ab7c76aa85b1585faf8236e1c8e89bd50b61eaef624ced",
+        "size": 5189
+      },
+      "attributedTo": []
+    }
+  ],
+  "unresolvedScopes": [
+    {
+      "id": "scope:7f2727b547ea66194a2c413c3aa2f95f6b2b988aa5f7d5aee002dd8a559d2684",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "specs_backup_brief.md",
+      "reason": "Changed path is not covered by a declared artifact: specs_backup_brief.md"
+    }
+  ],
+  "noCodeReason": null,
+  "scopeHash": "73f5c222a927413857a7f8aeb8e3a70db9e702f6e0a425d5d72ecfc2dc752590"
+}

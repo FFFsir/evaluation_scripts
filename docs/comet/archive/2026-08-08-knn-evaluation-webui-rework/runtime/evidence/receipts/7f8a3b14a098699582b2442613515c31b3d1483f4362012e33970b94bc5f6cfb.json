@@ -1,0 +1,51 @@
+{
+  "schema": "comet.native.verification-receipt.v3",
+  "kind": "automated-check",
+  "role": "acceptance-evidence",
+  "status": "passed",
+  "bindings": {
+    "change": "knn-evaluation-webui-rework",
+    "sourceRevision": 3,
+    "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+    "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d",
+    "snapshotHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+    "artifactHash": "a5ed4a584eacc57759e9ce04ccb7ab3683c5ee2bd624550457605005b13a5815"
+  },
+  "acceptanceIds": [
+    "acceptance-135e251aa0cb0b25ba24fcd8bd4bb2c56a4f1175d6bb87529da01999d9ec4184",
+    "acceptance-16d521c160824c897f209d944b013089f907e0eefb2327f16e21a18c29f2c962"
+  ],
+  "actor": "native-runtime:command:D:/Project/光机所项目/evaluation_scripts/.venv/Scripts/python.exe",
+  "issuedAt": "2026-08-08T10:16:09.837Z",
+  "evidence": {
+    "executable": "D:/Project/光机所项目/evaluation_scripts/.venv/Scripts/python.exe",
+    "args": [
+      "-m",
+      "pytest",
+      "KNN_evaluation/tests/test_webui.py",
+      "-q"
+    ],
+    "cwd": ".",
+    "exitCode": 0,
+    "signal": null,
+    "timedOut": false,
+    "timeoutMs": 60000,
+    "startedAt": "2026-08-08T10:16:04.432Z",
+    "endedAt": "2026-08-08T10:16:09.837Z",
+    "worktree": {
+      "provider": "git",
+      "root": ".",
+      "beforeCommit": "5b2c0f3bbf4752ade7fa58e6edf1899c3efcc704",
+      "afterCommit": "5b2c0f3bbf4752ade7fa58e6edf1899c3efcc704"
+    },
+    "afterFence": {
+      "snapshotHash": "268873301eeef27ee966a4c606c510bd90a145f4cbd6020630a04f4ec25aadc6",
+      "scopeHash": "c51ec64ef9f2790d3abfc01a49a5b0e4141885a5f7f764780cf1b7096d0bf43d",
+      "matched": true
+    },
+    "outputHash": "b729741bfce88f9f777b680962cb72fbf1059965e6530ca27e2cab92d4945676",
+    "outputSummary": ".......................                                                  [100%]\r\n============================== warnings summary ===============================\r\nKNN_evaluation/tests/test_webui.py::TestImportAutoRetry::test_retries_after_failure_then_succeeds\r\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\data_loader.py:145: UserWarning: 缺少 SE/ 或 DW/ 子目录: C:\\Users\\FMY\\AppData\\Local\\Temp\\pytest-of-FMY\\pytest-871\\test_retries_after_failure_the0\\data\r\n    warnings.warn(f\"缺少 SE/ 或 DW/ 子目录: {data_dir}\")\r\n\r\nKNN_evaluation/tests/test_webui.py::TestImportAutoRetry::test_no_retry_on_success\r\n  D:\\Project\\光机所项目\\evaluation_scripts\\.worktrees\\knn-evaluation-webui-rework\\KNN_evaluation\\data_loader.py:145: UserWarning: 缺少 SE/ 或 DW/ 子目录: C:\\Users\\FMY\\AppData\\Local\\Temp\\pytest-of-FMY\\pytest-871\\test_no_retry_on_success0\\data\r\n    warnings.warn(f\"缺少 SE/ 或 DW/ 子目录: {data_dir}\")\r\n\r\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\r\n23 passed, 2 warnings in 4.18s",
+    "outputTruncated": false
+  },
+  "receiptHash": "7f8a3b14a098699582b2442613515c31b3d1483f4362012e33970b94bc5f6cfb"
+}

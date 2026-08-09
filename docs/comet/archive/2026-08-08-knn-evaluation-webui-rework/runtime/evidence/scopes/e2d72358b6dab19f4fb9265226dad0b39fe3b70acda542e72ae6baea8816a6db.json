@@ -1,0 +1,234 @@
+{
+  "schema": "comet.native.implementation-scope.v2",
+  "contractHash": "31525609c0cac8bccb397ec690043aba92f796ec6634b047664eeb6f7c629832",
+  "baselineProjectionRef": "runtime/evidence/snapshots/9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6.json",
+  "baselineProjectionHash": "9d10829e88e9023ef17dcd74af11bfd04329ba930d646a2170b83a8f9b7adbc6",
+  "currentProjectionRef": "runtime/evidence/snapshots/260bb05c730bb11e472c09abcbd733fa36f5b77f00afc19a43cd0dce8c59226a.json",
+  "currentProjectionHash": "260bb05c730bb11e472c09abcbd733fa36f5b77f00afc19a43cd0dce8c59226a",
+  "complete": false,
+  "declaredArtifacts": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "file"
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "file"
+    }
+  ],
+  "changes": [
+    {
+      "path": "KNN_evaluation/tests/test_webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "d34648c4704aa445f02a82b2b782e753905477f93298167edd5678d5c05ef429",
+        "size": 107934
+      },
+      "after": {
+        "hash": "89cb47415f0bac971804b50b7ee558dabf9fb5c56b62eddfea9334e0bd3b875f",
+        "size": 27584
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/tests/test_webui.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/visualization.py",
+      "kind": "modified",
+      "before": {
+        "hash": "1341dae9723423cee56ffa89a2678ee2ad94548b3c50167d715929a314da309c",
+        "size": 6631
+      },
+      "after": {
+        "hash": "3788c109ec72615e4b4c3b85afd2b900af6ac31e7c1ca39f8b4e3ca0784cb724",
+        "size": 7728
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/visualization.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "KNN_evaluation/webui.py",
+      "kind": "modified",
+      "before": {
+        "hash": "5df60ac6804751a6dc17b4e943c729b49666e50e5936ad86eea3a18519013df4",
+        "size": 95896
+      },
+      "after": {
+        "hash": "9771ccb3e0d0715c21ef0569c9e3bb1f6df294855e54cb25fb77cd32fcb93835",
+        "size": 88608
+      },
+      "attributedTo": [
+        {
+          "path": "KNN_evaluation/webui.py",
+          "kind": "file"
+        }
+      ]
+    },
+    {
+      "path": "outputs/google_aef_embedding_similarity.npy",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "4e3f508ec70cb18ad534621f8f4543515c3fe2f63c0498e6605566306371756e",
+        "size": 160
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "outputs/similarity_sampling.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "a3f28c5422784493c95e50c213c100c04ea5113291c2512f1d48670717ec9ffc",
+        "size": 260
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "outputs/xian_aef_embedding_similarity.npy",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "4e3f508ec70cb18ad534621f8f4543515c3fe2f63c0498e6605566306371756e",
+        "size": 160
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "qdrant_import_manifest_test.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "3ef374ea3827db939b187f4f044e8a85cbe91bb6480c2d13605eb3180c264418",
+        "size": 185
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "qdrant_sampling_map_test_pixel_embeddings.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "97d7c59415b89914722e1b4e4bdb522f653e699f876b63d5898b80d69b85d302",
+        "size": 2839
+      },
+      "attributedTo": []
+    }
+  ],
+  "unattributed": [
+    {
+      "path": "outputs/google_aef_embedding_similarity.npy",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "4e3f508ec70cb18ad534621f8f4543515c3fe2f63c0498e6605566306371756e",
+        "size": 160
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "outputs/similarity_sampling.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "a3f28c5422784493c95e50c213c100c04ea5113291c2512f1d48670717ec9ffc",
+        "size": 260
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "outputs/xian_aef_embedding_similarity.npy",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "4e3f508ec70cb18ad534621f8f4543515c3fe2f63c0498e6605566306371756e",
+        "size": 160
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "qdrant_import_manifest_test.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "3ef374ea3827db939b187f4f044e8a85cbe91bb6480c2d13605eb3180c264418",
+        "size": 185
+      },
+      "attributedTo": []
+    },
+    {
+      "path": "qdrant_sampling_map_test_pixel_embeddings.json",
+      "kind": "added",
+      "before": null,
+      "after": {
+        "hash": "97d7c59415b89914722e1b4e4bdb522f653e699f876b63d5898b80d69b85d302",
+        "size": 2839
+      },
+      "attributedTo": []
+    }
+  ],
+  "unresolvedScopes": [
+    {
+      "id": "scope:4272272453554a683e3625eecd3fd7aa17cb1d2bfd868f13f80153a97a9c4238",
+      "kind": "snapshot-incomplete",
+      "source": "current",
+      "path": null,
+      "reason": "current snapshot is incomplete"
+    },
+    {
+      "id": "scope:e697f9427e97167058af2a69e5e5cb9f62920340dd25ce6ea2ae5ff44fc69362",
+      "kind": "snapshot-omission",
+      "source": "current",
+      "path": "qdrant_sampling_map_google_aef_embedding.json",
+      "reason": "current snapshot omitted qdrant_sampling_map_google_aef_embedding.json: file-size"
+    },
+    {
+      "id": "scope:995a8c68c5827d0a084f366f1f87ef06746411b2b3b5a2692841e9fba8c72f10",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "outputs/google_aef_embedding_similarity.npy",
+      "reason": "Changed path is not covered by a declared artifact: outputs/google_aef_embedding_similarity.npy"
+    },
+    {
+      "id": "scope:3d4e74409e57cdf33d4d5f490b1eab59d9c78155637fc5a4997dbe72adbeec3b",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "outputs/similarity_sampling.json",
+      "reason": "Changed path is not covered by a declared artifact: outputs/similarity_sampling.json"
+    },
+    {
+      "id": "scope:07f13448f617eb5d0942aaaa900705bf37e8100e03f4789c7b8b12cadf23b309",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "outputs/xian_aef_embedding_similarity.npy",
+      "reason": "Changed path is not covered by a declared artifact: outputs/xian_aef_embedding_similarity.npy"
+    },
+    {
+      "id": "scope:6fdda8112dac7d1a0ff15bd9b1f9af3cd36ec96dce3041fe5b07f243da561a74",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "qdrant_import_manifest_test.json",
+      "reason": "Changed path is not covered by a declared artifact: qdrant_import_manifest_test.json"
+    },
+    {
+      "id": "scope:67a11ff7973a4b0847c5d85feba51e520a3430c68ff2c66dae0a7a0ce20837dc",
+      "kind": "unattributed-change",
+      "source": "implementation-scope",
+      "path": "qdrant_sampling_map_test_pixel_embeddings.json",
+      "reason": "Changed path is not covered by a declared artifact: qdrant_sampling_map_test_pixel_embeddings.json"
+    }
+  ],
+  "noCodeReason": null,
+  "scopeHash": "e2d72358b6dab19f4fb9265226dad0b39fe3b70acda542e72ae6baea8816a6db"
+}

@@ -1,0 +1,97 @@
+{
+  "schema": "comet.native.verification-evidence.v1",
+  "change": "linear-probe-evaluation",
+  "sourceRevision": 3,
+  "result": "pass",
+  "freshness": "complete",
+  "contractHash": "daa787ffccecc32f4a802dae83a0d7b5f9cf8b1fe8015361fe8b0934e5908cf0",
+  "acceptanceCriteriaHash": "8c7cdc6ddbe26d51fa5f597de033ae11bcd5446ca376fc8e0d00d00fe2c4ac79",
+  "implementationScopeRef": "runtime/evidence/scopes/66ccd66b07b057301e1d132e1aa844f90cfe85c35eafa0cb6ae79be3b60fb475.json",
+  "implementationScopeHash": "66ccd66b07b057301e1d132e1aa844f90cfe85c35eafa0cb6ae79be3b60fb475",
+  "reportRef": "verification.md",
+  "reportHash": "81f72f6697acca82f20d3de5911f1eebcc1e4eadc9de3cc85fa349454b9c3dcb",
+  "acceptanceTrace": {
+    "schema": "comet.native.acceptance-trace.v1",
+    "nativeRootRef": "docs/comet",
+    "criteriaHash": "8c7cdc6ddbe26d51fa5f597de033ae11bcd5446ca376fc8e0d00d00fe2c4ac79",
+    "total": 7,
+    "evidenced": 7,
+    "skipped": 0,
+    "entries": [
+      {
+        "acceptanceId": "acceptance-28b2ecb4447276abdd7ff4e1e17064d14d9de3ff51d165b3e36e491345a8e0ae",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/diagnose_cpu.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-50e0396d7e5262f74760bfaad7f59402ba1ac724fc03284947b99b42982e892f",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/cli.py",
+          "LinearProbe_evaluation/dataset.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-a64795acf54d57971f6806cc2afb23fa55f81daee51fb931c51a53d2c5ced4e1",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/trainer.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-a8bdba7bb56921639fb0b53c695d80ca28988f0fd4f27f00c7e1576f5fb32604",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/tests/test_trainer.py",
+          "LinearProbe_evaluation/tests/test_webui.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-d38bf59952499db8b530d02f628f73cd816b7048bb9dbe70f471668a6fba32f3",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/cli.py",
+          "LinearProbe_evaluation/qdrant_client.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-d5990e5f3a77dd1f8ed2b1d137e0ebbb2258b1a5e491986b080dad96ff10056b",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/webui.py"
+        ],
+        "skippedReason": null
+      },
+      {
+        "acceptanceId": "acceptance-e1f2cb57cc160a29d2ec0ecd904be3c9d1f363bb29f473795786e6b89977a6ff",
+        "kind": "brief-example",
+        "source": "brief.md",
+        "evidenceRefs": [
+          "LinearProbe_evaluation/cli.py",
+          "LinearProbe_evaluation/model.py",
+          "LinearProbe_evaluation/trainer.py"
+        ],
+        "skippedReason": null
+      }
+    ],
+    "traceHash": "dfd76528705d100abd62a46d6d37fbf50c0400be06ebf0a18668e3264b9e3b97"
+  },
+  "partialAllowanceRef": null,
+  "partialAllowanceHash": null,
+  "receiptRef": null,
+  "createdAt": "2026-08-03T10:53:24.922Z",
+  "envelopeHash": "c4996f24674db69a6beff697a8844ec2254b4520cffbd9c73252e8db57fdaf0a"
+}
